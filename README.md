@@ -1,5 +1,8 @@
 # 🟢 **Nov05's MOOC Learning Portfolio**
 
+* 2026-05-30 MIT OpenCourseWare, Topics in Mathematics with Applications in Finance (Fall 2024)
+  * [Notes](https://docs.google.com/document/d/1kWwZTEtyWd6WNJqwoeVlJdfzU8pnSC2V1QI3l55DwQc)  
+    
 * 2025-04-15 Stanford AA228V/CS238V, [**Validation of Safety Critical Systems**](https://aa228v.stanford.edu/)
   * [16 videos](https://www.youtube.com/playlist?list=PLoROMvodv4rOq1LMLI8U7djzDb8--xpaC)
   * [1 textbook (441 pages)](https://algorithmsbook.com/validation/)  
