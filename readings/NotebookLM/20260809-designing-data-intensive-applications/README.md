@@ -1,7 +1,7 @@
 # 🟢 **Designing Data-Intensive Applications**
 
-The book: https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/   
-Google Drive: https://drive.google.com/file/d/1-WnQffkfrJaxNKn_eij7dERx_ymnJwZI   
+The book (616 pages): https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/   
+Book exerpt (126 pages): https://drive.google.com/file/d/1-WnQffkfrJaxNKn_eij7dERx_ymnJwZI   
 
 <br><br><br>   
 
@@ -740,1409 +740,544 @@ Day 7：
 👉 Prompt: 
 
 ```text
-是全书 pdf，共 126 页。
+是全书 pdf，共 616 页。
 ```
 
-ChatGPT:
+ChatGPT:  
 
-那就更好了。**126 页的全书 PDF**，完全可以把上面的方案进一步压缩：没必要 7 天才看完，建议做成 **3 天精读 + 2 天巩固**。
+那就需要调整方案了。**616 页的完整 DDIA** 不适合按“5 天快速扫完”来做；如果目标是**真正理解而不是听摘要**，我建议把 NotebookLM 当成“导航 + 导师 + 考官”，而不是阅读替代品。
 
-不过有一点需要纠正：如果这是整本书的 126 页 PDF，页数本身并不能证明它是完整的正式版；但如果 PDF 确实包含全书内容，那么 NotebookLM 可以直接以它作为**唯一主 source** 来学习。
+下面给你一套针对 **616 页完整版** 的版本。
 
-## 我建议你改成这个 5 天方案
+## 推荐节奏：14 天 × 每天 60–90 分钟
 
-### Day 1：建立全书地图 + 第一遍快速阅读
+核心比例：
 
-上传 PDF 后，先问：
+**阅读 60% → NotebookLM 解释 20% → 主动回忆/练习 20%**
 
-```text
-你是我的 DDIA 学习导师。
+不要试图让 NotebookLM 把 616 页一次总结掉。
 
-这是《Designing Data-Intensive Applications》的完整 PDF。
+---
 
-请不要直接总结每一页。
+# 一、先做一次“全书建图”
 
-先建立全书 mental model：
+上传完整 PDF 后，只做下面 3 个 Prompt。
 
-1. 全书试图解决的核心问题是什么？
-2. 全书最重要的 15 个概念是什么？
-3. 这些概念之间有什么依赖关系？
-4. 哪些概念是基础，哪些建立在它们之上？
-5. 作者反复出现的核心思想和 trade-off 是什么？
-6. 如果我要成为一个能做系统设计的后端工程师，
-   哪些内容必须真正掌握？
+### 1. 全书地图
 
-最后给我一张“学习路线图”。
+```text id="ddia616map"
+你是我的《Designing Data-Intensive Applications》学习导师。
+
+这是完整的 616 页 PDF。
+
+我的目标不是快速得到摘要，而是建立能够用于真实后端/分布式系统设计的 mental model。
+
+请基于整个 PDF：
+
+1. 找出全书 15～20 个最重要的概念
+2. 建立概念之间的依赖关系
+3. 找出作者反复讨论的核心问题
+4. 找出作者反复讨论的 engineering trade-offs
+5. 区分：
+   - 必须掌握
+   - 应该理解
+   - 可以快速浏览
+6. 给出一个适合有后端经验工程师的学习顺序
+
+不要逐章总结。
+
+我要看到的是：
+
+Problem
+→ Why
+→ Solution
+→ Trade-off
+→ Failure
+→ Decision
+
+最后给出一张全书知识地图。
 ```
 
-然后再问：
+### 2. 章节优先级
 
-```text
-现在把全书划分成 5 个学习模块。
+```text id="ddiapriority"
+请扫描完整 616 页。
 
-对于每个模块告诉我：
+按照“对现代后端工程师系统设计能力的重要程度”，
+给每个章节分级：
+
+A = 必须精读
+B = 理解核心思想
+C = 快速阅读即可
+
+对于每章给出：
 
 - 核心问题
-- 必须掌握的概念
+- 3～5 个必须掌握的概念
 - 最重要的 trade-off
-- 最容易产生误解的地方
-- 推荐阅读顺序
+- 与其他章节的关系
 
-不要超过 1500 字。
+不要因为章节靠前或靠后而影响评级。
 ```
 
-**Day 1 不要开始疯狂提问。**
+### 3. 先找“主线”
 
-目标只是搞清楚：
+```text id="ddiamainline"
+如果把整本 DDIA 看成一个连续的论证，
+作者实际上是在解决哪几个越来越困难的问题？
 
-> “这 126 页到底想让我学会什么？”
+请不要按章节回答。
+
+请建立类似：
+
+单机
+↓
+数据规模增加
+↓
+数据模型
+↓
+存储
+↓
+复制
+↓
+分区
+↓
+事务
+↓
+一致性
+↓
+故障
+↓
+分布式系统
+↓
+批处理
+↓
+流处理
+
+这样的因果链。
+
+根据本书实际内容调整。
+
+最终告诉我：
+
+“读完整本书时，我脑中应该一直保留的主线是什么？”
+```
 
 ---
 
-# Day 2：Storage + Data Model
+# 二、616 页不要平均分配时间
 
-重点建立这条链：
+我建议这样：
 
-```text
-Data
- ↓
-Data Model
- ↓
-Storage
- ↓
-Index
- ↓
-Query
- ↓
-Performance
-```
+| 模块                  |    时间 | 重点                        |
+| ------------------- | ----: | ------------------------- |
+| 数据系统基础              |   1 天 | mental model              |
+| Data Models         |   1 天 | relational/document/graph |
+| Storage & Retrieval |   2 天 | B-tree/LSM/index          |
+| Encoding            |    半天 | compatibility             |
+| Replication         | 1.5 天 | consistency/failure       |
+| Partitioning        |   1 天 | scaling/hot spot          |
+| Transactions        | 1.5 天 | isolation                 |
+| Distributed Systems |   2 天 | consistency/consensus     |
+| Batch Processing    |   1 天 | dataflow                  |
+| Stream Processing   |   1 天 | events/state              |
+| 综合复习                | 1.5 天 | system design             |
 
-问 NotebookLM：
+**不是每一页都值得同等精读。**
 
-```text
-请从全书中找出关于 data model、storage engine、
-index、query processing 的核心内容。
-
-不要按照原书顺序总结。
-
-请建立：
-
-数据是什么？
-↓
-为什么需要 data model？
-↓
-数据如何存储？
-↓
-为什么需要 index？
-↓
-为什么不同 workload 需要不同 storage/index？
-↓
-这些选择产生什么 trade-off？
-
-最后给我 5 个工程场景，
-让我判断应该选择什么方案。
-不要给答案。
-```
-
-然后真正去回答这 5 个场景。
+尤其是 Storage、Replication、Transactions、Distributed Systems，我会明显放慢。
 
 ---
 
-# Day 3：Replication + Partitioning + Transactions
+# 三、每个章节固定使用“四步循环”
 
-这是我建议你投入最多精力的一天。
+不要每章都发十几个 Prompt。
 
-让 NotebookLM 先做：
+固定：
 
-```text
-请把 replication、partitioning、transactions
-放到同一个 mental model 中。
+### Step 1 — 阅读
 
-回答：
+自己读这一章。
 
-为什么单机系统不够？
-        ↓
-为什么需要 replication？
-        ↓
-为什么需要 partitioning？
-        ↓
-为什么 partition + replication 后
-transaction 会变复杂？
-        ↓
-为什么 distributed system 会出现
-consistency 和 failure 问题？
-
-不要分别解释概念。
-我要看到它们之间的因果关系。
-```
-
-然后专门做这个：
+遇到不懂的地方先标记：
 
 ```text
-请建立一张 DDIA Trade-off Matrix：
-
-单机 vs 分布式
-同步 vs 异步
-leader vs leaderless
-single-leader vs multi-leader
-replication vs partitioning
-strong consistency vs weaker consistency
-
-每一项回答：
-
-为什么需要？
-解决什么？
-付出什么？
-什么时候使用？
-什么时候不要使用？
+？
 ```
 
-**这张表建议保存为 Note。**
+不要立刻问 NotebookLM。
 
 ---
 
-# Day 4：Consistency + Batch/Stream
+### Step 2 — Mental Model
 
-这一天不要贪多。
+读完一个 section 后：
 
-重点搞懂：
+```text id="sectionmental"
+请解释我刚刚阅读的这一部分。
 
-```text
-Consistency
-Replication
-Ordering
-Causality
-Failure
-Batch
-Stream
-Event
-Log
+不要复述原文。
+
+请回答：
+
+1. 作者在解决什么问题？
+2. 为什么这个问题困难？
+3. naive solution 为什么不够？
+4. 作者提出什么机制？
+5. 这个机制牺牲了什么？
+6. 什么情况下它会失败？
+
+最后用一个真实工程场景解释。
 ```
 
-问：
+---
 
-```text
-我希望真正理解 distributed systems 中的 consistency。
+### Step 3 — 主动回忆
 
-请不要从定义开始。
+合上书。
 
-通过一个具体的多节点系统，
-逐步制造：
+```text id="sectionquiz"
+不要告诉我这一节的答案。
 
-network delay
-concurrent writes
-replication lag
-node failure
-conflict
+请测试我是否真正理解了刚才的内容。
 
-让我看到为什么这些问题会产生。
+给我 5 道问题：
 
-然后分别解释：
-consistency
-ordering
-causality
-linearizability
+1. why
+2. how
+3. trade-off
+4. failure
+5. system design
 
-之间是什么关系。
+一次只问一道。
 
-如果这些概念容易混淆，
-请明确指出它们最容易被误解的地方。
+我回答以后再评价。
+```
+
+---
+
+### Step 4 — 保存 Note
+
+只有真正有价值的内容才保存。
+
+最终 Notes 不要有 100 条。
+
+我建议控制在：
+
+**20～30 个高价值 Notes。**
+
+---
+
+# 四、几个章节要特别“重读”
+
+## Storage & Retrieval
+
+这部分不要急。
+
+直接用：
+
+```text id="storagecore"
+请帮我建立 DDIA Storage Engine Mental Model。
+
+把以下概念串成一条因果链：
+
+write
+→ storage
+→ index
+→ read
+→ update
+→ delete
+→ compaction
+→ performance
+
+重点解释：
+
+为什么 B-tree 和 LSM-tree 会出现？
+
+它们分别优化什么？
+
+它们分别牺牲什么？
+
+不要只比较特性。
+解释这些设计为什么自然地从问题中推导出来。
 ```
 
 然后：
 
-```text
-请用一个大型互联网产品作为例子，
-把 batch processing、stream processing、
-event、log、derived data 串起来。
+```text id="storageinterview"
+假设我是负责设计一个数据库 storage engine 的工程师。
 
-重点解释：
+不要告诉我设计。
 
-为什么需要它们？
-它们解决什么问题？
-它们之间如何组合？
-各自有什么 trade-off？
-```
-
----
-
-# Day 5：完全停止“阅读”，开始考试
-
-这是最重要的一天。
-
-直接让 NotebookLM：
-
-```text
-现在你是 Staff+ Distributed Systems interviewer。
-
-请不要再给我总结。
-
-给我一个大型互联网系统设计题。
-
-这个题必须让我考虑：
-
-data model
-storage
-index
-replication
-partitioning
-transactions
-consistency
-failure
-batch processing
-stream processing
-
-不要告诉我答案。
-
-你只能通过提问引导我。
-
-如果我的方案存在问题，
-不要直接告诉我正确答案，
-而是提出一个问题，让我自己发现问题。
-```
-
-然后真的跟它对话。
-
----
-
-# 126 页其实非常适合做“二遍法”
-
-我不建议：
-
-**第 1 天读 1–25 页
-第 2 天读 26–50 页
-……**
-
-因为这样很容易变成普通线性阅读。
-
-我更建议：
-
-### 第一遍：30～60 分钟
-
-快速浏览全书，建立：
-
-```text
-作者在解决什么问题？
-        ↓
-有哪些主要问题？
-        ↓
-每个问题出现的原因？
-        ↓
-作者提出哪些解决方案？
-        ↓
-每种方案牺牲什么？
-```
-
-### 第二遍：2～3 小时
-
-只深入那些：
-
-> **“如果让我设计系统，我真的会用到，但现在还解释不清楚”**
-
-的部分。
-
----
-
-# 免费额度反而够用了
-
-如果你使用的是目前 NotebookLM 免费版，Google 的官方限制里，免费用户每天有 **50 次 chat queries**。
-
-对于 126 页，我建议你**每天只用 15～25 次**，不要追求把额度用光。
-
-例如：
-
-```text
-Day 1    5 次
-Day 2   15 次
-Day 3   20 次
-Day 4   15 次
-Day 5   20 次
-```
-
-而且有一个很重要的技巧：
-
-> **一个 prompt 尽量让 NotebookLM 完成一个完整任务，而不是把一个问题拆成 5 个问题。**
-
-例如不要：
-
-```text
-什么是 replication？
-为什么需要 replication？
-有什么 replication？
-leader 是什么？
-leaderless 是什么？
-```
-
-而应该：
-
-```text
-请从 Problem → Solution → Trade-off → Failure
-完整解释 replication，并比较不同策略。
-```
-
-这样既节省额度，也更容易形成整体 mental model。
-
----
-
-## 最后，我建议你专门建立 5 个 Notes
-
-NotebookLM 学习结束后，只保留这五份：
-
-```text
-01 — DDIA 全书 Mental Model
-
-02 — Data Model + Storage Cheat Sheet
-
-03 — Replication + Partitioning + Transactions
-
-04 — Consistency + Distributed Systems
-
-05 — DDIA System Design Trade-offs
-```
-
-最后再问：
-
-```text
-基于这 5 个 Notes，
-生成一份不超过 3000 字的《我的 DDIA》。
-
-假设读者已经有后端开发经验。
-
-不要介绍基础定义。
-
-重点回答：
-
-“当我设计一个真实的大规模系统时，
-DDIA 教我的思考框架是什么？”
-
-尽可能用：
-Problem → Options → Trade-off → Failure → Decision
-
-来组织内容。
-```
-
-**这份 3000 字文档，才是你这 126 页 PDF 最终真正应该留下来的东西。**
-
-如果你愿意，我下一步可以直接给你一份 **“NotebookLM DDIA 复制粘贴 Prompt Pack”**：按照**第 1 章 → 第 2 章 → ……**逐章写好，每章 3～5 个 prompt，你打开 NotebookLM 后一路复制粘贴即可。
-
-
-<br><br><br>   
-
-👉 Prompt:
-
-```text
-给我一份 NotebookLM DDIA 复制粘贴 Prompt Pack
-```
-
-ChatGPT:
-
-可以。下面这份我按 **DDIA 全书 + NotebookLM 免费额度 + 后端工程师快速掌握** 来设计。
-
-核心原则只有一个：
-
-> **少问“总结”，多问“为什么 → trade-off → failure → decision”，最后用系统设计题验证。**
-
-你可以把下面的 Prompt 按顺序直接复制到 NotebookLM。
-**不需要一次全部使用**；每天选对应章节的 Prompt 即可。
-
----
-
-# NotebookLM × DDIA Prompt Pack
-
-## 0. 初始化：先让 NotebookLM 认识你的学习目标
-
-上传完整 126 页 PDF 后，第一问先用这个。
-
-```text
-你是我的《Designing Data-Intensive Applications》学习导师。
-
-我的目标不是背诵这本书，而是建立能够用于真实后端系统设计的 mental model。
-
-请基于当前 PDF：
-
-1. 找出全书最重要的 15 个概念
-2. 建立这些概念之间的依赖关系
-3. 找出作者反复讨论的核心 trade-off
-4. 区分：
-   - 必须掌握
-   - 应该理解
-   - 可以快速浏览
-5. 告诉我这些知识最终如何用于系统设计
-
-不要按照目录简单总结。
-
-我要的是：
-Problem → Why → Solution → Trade-off → Failure → Decision
-
-最后给我一张“DDIA 学习路线图”。
-```
-
----
-
-# 1. 全书快速扫描
-
-```text
-请把整本书压缩成一张“系统设计地图”。
-
-不要逐章总结。
-
-回答：
-
-1. 数据系统面临哪些核心问题？
-2. 为什么这些问题会出现？
-3. 不同章节分别解决什么问题？
-4. 哪些概念是前置知识？
-5. 哪些概念是建立在其他概念之上的？
-6. 哪些概念最终会在系统设计中反复出现？
-
-最后用一棵知识树表示：
-
-Data
-├── Model
-├── Storage
-├── Processing
-├── Replication
-├── Partitioning
-├── Transactions
-├── Consistency
-└── Failure
-
-根据本书实际内容调整这棵树。
-```
-
----
-
-# 2. 每章通用 Prompt
-
-以后每一章都可以先用这个。
-
-```text
-请教我当前章节，但不要按照章节顺序复述。
-
-请回答：
-
-1. 这一章试图解决什么核心问题？
-2. 为什么这个问题困难？
-3. 最简单的 naive solution 是什么？
-4. 为什么 naive solution 不够？
-5. 作者介绍了哪些解决方案？
-6. 每个方案解决什么问题？
-7. 每个方案牺牲什么？
-8. 有哪些 failure mode？
-9. 在什么情况下应该选择它？
-10. 在什么情况下不应该选择它？
-
-最后用一句话总结：
-
-“这一章真正想让我学会的思考方式是什么？”
-```
-
----
-
-# 3. 每章的“费曼测试”
-
-读完一章以后，不要马上继续。
-
-复制：
-
-```text
-现在不要继续给我解释。
-
-请测试我是否真正理解了这一章。
-
-给我 5 道问题：
-
-- 2 道 why 问题
-- 1 道 trade-off 问题
-- 1 道 failure scenario
-- 1 道 system design 问题
-
-不要给答案。
-
-一次只问我一道。
-
-我回答之后：
-1. 判断是否正确
-2. 指出我的错误
-3. 指出遗漏
-4. 告诉我我的 mental model 哪里有问题
-5. 再问下一题
-```
-
-这个 Prompt 建议**每章都使用**。
-
----
-
-# 4. 第一部分：Data Models
-
-如果你的 PDF 中包含对应章节，使用：
-
-```text
-请从本书角度解释：
-
-relational model
-document model
-graph model
-
-不要分别做定义介绍。
-
-重点回答：
-
-为什么这些 data model 会出现？
-
-它们分别解决了什么现实问题？
-
-它们各自优化了什么？
-
-它们各自牺牲了什么？
-
-什么数据关系适合 relational？
-
-什么数据关系适合 document？
-
-什么数据关系适合 graph？
-
-最后给我 5 个真实业务场景，
-让我自己选择 data model。
-
-不要告诉我答案。
-```
-
----
-
-# 5. Relational vs Document
-
-```text
-假设我要设计一个大型电商系统。
-
-请比较 relational model 和 document model。
-
-从以下角度分析：
+你通过 10 个问题一步一步让我自己决定：
 
 - data structure
-- relationships
-- joins
-- schema evolution
-- read pattern
-- write pattern
-- consistency
-- scalability
-- query flexibility
+- index
+- write path
+- read path
+- compaction
+- recovery
 
-不要告诉我哪个“更好”。
-
-我要理解：
-
-什么 workload 下 A 更合理？
-什么 workload 下 B 更合理？
-
-最后给我 3 个场景让我自己做选择。
+最后评价我的设计。
 ```
 
 ---
 
-# 6. Storage Engines
+# 五、Replication 是第二个重点
 
-这是 DDIA 非常值得认真学的一部分。
+```text id="replicationcore"
+请把 DDIA 中 replication 的所有重要思想串起来。
 
-```text
-请建立一个 Storage Engine mental model。
+不要按照章节顺序。
 
 从：
 
-Application
-↓
-Database
-↓
-Storage Engine
-↓
-Disk / Memory
+为什么需要复制？
 
-开始解释。
-
-重点回答：
-
-1. 数据为什么不能简单地直接写磁盘？
-2. 为什么需要 data structure？
-3. 为什么需要 index？
-4. 为什么有 B-tree？
-5. 为什么又有 LSM-tree？
-6. read 和 write 为什么会产生不同的优化方向？
-7. storage engine 的设计本质上在 trade-off 什么？
-
-不要只讲定义。
-请用一个真实 workload 串起来。
-```
-
----
-
-# 7. B-tree vs LSM-tree
-
-```text
-请深入比较 B-tree 和 LSM-tree。
-
-建立以下矩阵：
-
-                  B-tree       LSM-tree
-
-Write
-Read
-Update
-Delete
-Range query
-Random lookup
-Storage amplification
-Write amplification
-Compaction
-Concurrency
-Operational complexity
-Typical workload
-
-对于每一项不要只写结论。
-
-解释“为什么”。
-
-最后给我 3 个真实业务场景，
-让我判断应该选择哪一种。
-
-不要直接给答案。
-```
-
----
-
-# 8. Encoding / Evolution
-
-```text
-请解释 data encoding 和 schema evolution。
-
-不要从定义开始。
-
-假设：
-
-Version 1 的服务
-↓
-Version 2
-↓
-Version 3
-
-同时存在旧客户端和新客户端。
-
-一步一步解释：
-
-为什么 backward compatibility 很重要？
-为什么 forward compatibility 很重要？
-为什么 rolling deployment 会带来问题？
-
-最后给我一个真实系统升级场景，
-让我自己设计兼容方案。
-```
-
----
-
-# 9. Replication 总 Prompt
-
-这是全书非常重要的 Prompt。
-
-```text
-请把 replication 讲成一个工程问题，而不是概念介绍。
-
-从：
-
-“为什么一台数据库服务器不够？”
-
-开始。
-
-逐步推导：
+开始推导：
 
 availability
-↓
 read scaling
-↓
 geographic distribution
-↓
-replication
-↓
 replication lag
-↓
-consistency problems
-↓
-failure handling
+consistency
+failure
+conflict
 
-然后比较：
+然后解释：
 
 single-leader
 multi-leader
 leaderless
 
-对于每一种回答：
+为什么它们分别出现？
 
-Problem
-Solution
-Advantage
-Cost
-Failure mode
-Consistency implication
-Typical use case
+每种方案到底在 trade-off 什么？
 ```
 
----
+然后马上做：
 
-# 10. Replication Failure Simulator
+```text id="replicationfail"
+给我 10 个 replication failure scenarios。
 
-```text
-现在你是 Distributed Systems interviewer。
+不要给答案。
 
-不要解释 replication。
-
-给我制造故障。
-
-每次只给一个 scenario。
-
-例如：
-
-- follower 落后
-- leader 宕机
-- network partition
-- concurrent writes
-- conflicting writes
-- stale read
-- replication lag
+每次给一个。
 
 让我回答：
 
 发生了什么？
 为什么？
-应该怎么办？
-
-我回答以后再评价。
-
-不要提前告诉我答案。
+系统应该如何处理？
+有什么 trade-off？
 ```
 
 ---
 
-# 11. Consistency
+# 六、Transactions + Isolation 要用“时间线”学
 
-```text
-我想真正理解 consistency，而不是背定义。
+```text id="transactiontimeline"
+请不要用定义解释 transaction isolation。
 
-请构造一个多节点数据库场景。
-
-让下面的问题逐步发生：
-
-1. concurrent writes
-2. replication lag
-3. network delay
-4. node failure
-5. conflicting updates
-
-然后解释这些现象如何导致不同的 consistency behavior。
-
-最后比较：
-
-eventual consistency
-stronger consistency
-linearizability
-causal consistency
-
-重点解释：
-
-“它们到底在保证什么？”
-“它们没有保证什么？”
-```
-
----
-
-# 12. Linearizability
-
-```text
-请用一个时间线解释 linearizability。
-
-必须包含：
-
-Client A
-Client B
-Node 1
-Node 2
-
-展示：
-
-write
-read
-network delay
-replication
-
-然后给出两个结果：
-
-A. 满足 linearizability
-B. 不满足 linearizability
-
-让我看到两者在时间线上到底有什么区别。
-
-不要只给定义。
-```
-
----
-
-# 13. Partitioning
-
-```text
-请从“单台机器无法继续扩展”开始解释 partitioning。
-
-逐步回答：
-
-为什么需要 partitioning？
-如何选择 partition key？
-什么是 hot spot？
-为什么 hash partitioning 可以解决一部分问题？
-为什么 range partitioning 又有优势？
-rebalancing 为什么困难？
-
-最后设计一个用户数据系统：
-
-User ID
-Region
-Timestamp
-
-让我选择 partition strategy。
-
-不要告诉我答案。
-```
-
----
-
-# 14. Partitioning + Replication
-
-这是一个非常值得问的问题：
-
-```text
-请把 partitioning 和 replication 放在一起解释。
-
-很多人知道：
-
-partition = 拆数据
-replication = 复制数据
-
-但我希望理解它们组合之后发生了什么。
-
-请建立：
-
-Dataset
-↓
-Partitions
-↓
-Replicas
-↓
-Leaders
-↓
-Followers
-
-然后解释：
-
-query routing
-failure
-rebalancing
-replica lag
-consistency
-
-最终告诉我：
-
-为什么大型分布式数据库通常需要同时使用 partitioning 和 replication？
-```
-
----
-
-# 15. Transactions
-
-```text
-不要背 ACID。
-
-从一个真实业务 bug 开始：
-
-例如银行转账：
-
-A - 100
-B + 100
-
-假设系统在中间发生：
-
-crash
-network failure
-concurrent update
-
-会发生什么？
-
-一步一步引出：
-
-Atomicity
-Consistency
-Isolation
-Durability
-
-然后告诉我：
-
-每一个属性到底解决哪一种问题？
-
-最后给我 5 个没有 transaction 会出问题的真实场景。
-```
-
----
-
-# 16. Isolation
-
-```text
-请用时间线解释 transaction isolation。
-
-设计至少 4 个 concurrent transaction：
+创建：
 
 T1
 T2
 T3
-T4
 
-展示可能发生的：
+三个 concurrent transactions。
+
+通过时间线逐步制造：
 
 dirty read
-dirty write
-read skew
 lost update
+read skew
 write skew
 phantom
 
-不要只给定义。
+每次让我先判断发生了什么。
 
-对于每一个：
+然后解释：
 
-1. 展示时间线
-2. 说明 bug
-3. 为什么会发生
-4. 什么机制可以避免
-5. 性能或可扩展性代价是什么
+为什么发生？
+数据库提供什么机制避免它？
+这种机制有什么成本？
 ```
+
+这个方式比直接背 Isolation Levels 有效得多。
 
 ---
 
-# 17. Distributed Transactions
+# 七、Distributed Systems 是全书的“综合考试”
 
-```text
-为什么 transaction 在 distributed system 中突然变得困难？
+这里建议使用：
 
-请从：
+```text id="distributedmental"
+请把 DDIA 中 distributed systems 的核心问题压缩成：
 
-single machine
-↓
-multiple partitions
-↓
-multiple replicas
-↓
-network
-↓
-partial failure
-
-一步一步推导。
-
-重点回答：
-
-为什么本地 transaction 的假设在 distributed system 中失效？
-
-哪些事情必须协调？
-
-协调的成本是什么？
-
-不要直接给结论。
-我要理解因果链。
-```
-
----
-
-# 18. Batch Processing
-
-```text
-请把 batch processing 解释成一个真实的数据系统。
-
-假设：
-
-每天产生 10 亿条用户行为数据。
-
-我要每天计算：
-
-DAU
-retention
-conversion
-revenue
-
-请解释：
-
-data
-↓
-storage
-↓
-batch job
-↓
-intermediate data
-↓
-derived data
-↓
-report
-
-然后分析：
-
-为什么 batch processing 有优势？
-它的缺点是什么？
-什么情况下不应该使用 batch？
-```
-
----
-
-# 19. Stream Processing
-
-```text
-请设计一个实时事件处理系统。
-
-事件：
-
-click
-purchase
-login
-logout
-
-要求：
-
-event
-↓
-stream
-↓
-processing
-↓
-state
-↓
-derived result
-
-请解释：
-
-为什么 stream processing 与 batch processing 不同？
-
-重点讨论：
-
-latency
-ordering
-duplicates
-failure
-reprocessing
-state
-consistency
-
-不要只讲定义。
-```
-
----
-
-# 20. Batch vs Stream
-
-```text
-请建立 Batch Processing vs Stream Processing 的 trade-off matrix。
-
-比较：
-
-Latency
-Throughput
-Complexity
-Correctness
-Failure recovery
-Reprocessing
+Network
++
+Concurrency
++
+Partial Failure
++
+Replication
++
 Ordering
-State
-Cost
-Operational complexity
++
+Consistency
 
-每个维度都解释为什么。
+解释：
 
-最后给我 5 个真实业务场景，
-让我自己选择 batch、stream 或两者结合。
+为什么这些因素组合起来，
+使 distributed system 比 single-machine system 困难得多？
 
-不要给答案。
+请用一个真实系统贯穿整个解释。
+
+不要分别讲定义。
 ```
 
----
+然后：
 
-# 21. Event / Log
+```text id="distributedwhy"
+从整本 DDIA 中挑出 20 个最重要的：
 
-```text
-为什么 log/event 在 DDIA 中如此重要？
-
-请不要从“log 是什么”开始。
-
-从：
-
-Database
-↓
-Change
-↓
-Event
-↓
-Log
-↓
-Stream
-↓
-Derived Data
-
-解释它们之间的关系。
-
-然后回答：
-
-为什么一个数据变化可以被多个下游系统消费？
-
-这给 data architecture 带来了什么好处？
-
-又引入什么新的问题？
-```
-
----
-
-# 22. Failure
-
-这是系统设计能力的核心。
-
-```text
-请从 DDIA 中提取所有重要 failure scenarios。
-
-分类：
-
-- hardware failure
-- process failure
-- network failure
-- disk failure
-- node failure
-- replica failure
-- leader failure
-- application failure
-- data corruption
-- human error
-
-对于每一个：
-
-What fails?
-↓
-What does the system observe?
-↓
-What can go wrong?
-↓
-How can we recover?
-↓
-What trade-off does recovery introduce?
-
-最后给我一张 Failure Mental Model。
-```
-
----
-
-# 23. DDIA 最重要的 Trade-off Matrix
-
-这个建议保存为 Note。
-
-```text
-请建立一张《DDIA Engineering Trade-off Matrix》。
-
-至少覆盖：
-
-SQL vs NoSQL
-Document vs Relational
-B-tree vs LSM-tree
-OLTP vs OLAP
-Batch vs Stream
-Replication vs Partitioning
-Leader vs Leaderless
-Synchronous vs Asynchronous
-Strong consistency vs weaker consistency
-Local transaction vs distributed transaction
-
-每一行：
-
-Problem
-Option A
-Option B
-Why A exists
-Why B exists
-A's advantage
-A's cost
-B's advantage
-B's cost
-Failure mode
-When to choose A
-When to choose B
-
-不要使用“X 更好”这种结论。
-重点是 trade-off。
-```
-
----
-
-# 24. 最重要的“为什么”测试
-
-```text
-请从整本 DDIA 中挑选 30 个最重要的“Why”问题。
+“为什么？”
 
 例如：
 
 Why replication?
 Why partitioning?
-Why indexes?
 Why transactions?
 Why isolation?
 Why consensus?
+Why ordering?
 Why logs?
 Why stream processing?
 
 不要给答案。
 
-按照 Senior Backend Engineer 面试的方式，
 一次问我一个。
 
-我回答后：
-
-- 判断我的回答
-- 指出关键遗漏
-- 给出正确 mental model
-- 继续下一题
+我回答后纠正我。
 ```
 
 ---
 
-# 25. “我到底有没有真正理解？”测试
+# 八、最后 2 天：停止读书
 
-```text
-现在请测试我的 DDIA mental model。
+这时候不要再：
 
-不要考定义。
+> “总结第 XX 章。”
 
-给我 10 个真实系统设计场景。
+而应该：
 
-每个场景必须让我做 architecture decision。
+```text id="finalsystemdesign"
+你现在是 Staff+ Distributed Systems interviewer。
 
-例如：
+基于 DDIA 中的知识，
+给我设计一个大型系统设计题。
 
-- 全球社交网络
-- 电商订单系统
-- 银行转账
-- 实时推荐
-- 日志分析平台
-- 消息系统
-- IoT 数据平台
-- 搜索系统
-- 视频平台
-- 多区域 SaaS
+不要告诉我架构。
 
-每次只给一个场景。
+让我自己决定：
 
-不要告诉我应该使用什么技术。
-
-让我自己选择：
-
-data model
-storage
-index
-replication
-partitioning
-consistency
-transaction
-batch/stream
-
-然后批评我的设计。
-```
-
----
-
-# 26. 最终 Senior Engineer 模拟面试
-
-这是最后一个 Prompt。
-
-```text
-现在进行一场完整的 DDIA Senior Backend / Distributed Systems 面试。
-
-你是 interviewer。
-我是 candidate。
-
-给我一个大型互联网系统设计题。
-
-要求这个题目需要综合考虑：
-
-- data model
-- storage engine
-- indexing
-- replication
-- partitioning
-- transactions
-- consistency
-- concurrency
-- failure
-- batch processing
-- stream processing
+Data model
+Storage
+Index
+Replication
+Partitioning
+Transactions
+Consistency
+Failure handling
+Batch
+Stream
 
 规则：
 
-1. 不要主动告诉我架构。
-2. 一次只问一个问题。
-3. 如果我的设计有问题，不要直接给答案。
-4. 用 interviewer question 让我自己发现问题。
-5. 主动制造 failure scenario。
-6. 主动提高系统规模。
-7. 最后评价我的设计。
+如果我的设计有问题，
+不要直接告诉我。
 
-评分：
+通过 interviewer question
+让我自己发现问题。
 
-Architecture
-Data modeling
+不断提高：
+
+traffic
+data volume
+geographic distribution
+availability requirement
+
+最后给我的设计打分：
+
+Data model
+Storage
 Scalability
 Consistency
 Reliability
 Failure handling
 Trade-offs
-Clarity
 
-满分 100。
+总分 100。
 ```
 
 ---
 
-# 27. 最终生成“我的 DDIA”
+# 九、最后只保留 5 张 Notes
 
-所有学习结束后，把这个作为最后一个 Prompt：
+616 页读完以后，不要让 NotebookLM 给你生成 616 页的“摘要”。
 
-```text
-基于：
+只留下：
 
-1. 当前 DDIA PDF
-2. 我保存的 Notes
-3. 我之前的学习和问答
+### Note 1
 
+**DDIA Mental Model**
+
+### Note 2
+
+**Storage / Data Model**
+
+### Note 3
+
+**Replication / Partitioning / Transactions**
+
+### Note 4
+
+**Consistency / Distributed Systems / Failure**
+
+### Note 5
+
+**Batch / Stream / Dataflow**
+
+然后：
+
+```text id="myddiafinal"
+基于我的 5 个 Notes，
 生成《我的 DDIA》。
 
-目标读者：
-一个有后端开发经验、希望提高系统设计能力的工程师。
+假设读者已经有后端开发经验。
 
 不要按照原书章节组织。
 
-按照工程师实际设计系统时的思考过程组织：
+按照真实系统设计过程组织：
 
-1. Problem
-2. Requirements
-3. Data Model
-4. Storage
-5. Query
-6. Scaling
-7. Replication
-8. Partitioning
-9. Transactions
-10. Consistency
-11. Failure
-12. Batch
-13. Stream
-14. Trade-offs
-15. Architecture Decision
+Problem
+→ Requirements
+→ Data Model
+→ Storage
+→ Query
+→ Scaling
+→ Replication
+→ Partitioning
+→ Transactions
+→ Consistency
+→ Failure
+→ Processing
+→ Trade-offs
+→ Decision
 
-每个主题只回答：
+每个主题只保留：
 
-What problem?
 Why?
 Options?
 Trade-off?
@@ -2151,90 +1286,48 @@ When to choose?
 
 不要堆砌定义。
 
-最后增加：
+最后生成：
 
-《DDIA 最重要的 30 个 mental models》
+1. 30 个最重要的 mental models
+2. 30 个 Senior Engineer 面试问题
+3. 一张 DDIA system design cheat sheet
 
-以及：
-
-《Senior Engineer 应该能够回答的 30 个问题》
-
-总长度控制在 5000 字以内。
+总长度不超过 6000 字。
 ```
 
 ---
 
-# 28. 最终压缩成一张“作弊纸”
+## 一个重要调整：别把“免费额度”当成主要限制
 
-最后再问一次：
+616 页真正的瓶颈其实不是 NotebookLM 的 query 数，而是**你的注意力**。
 
-```text
-把《我的 DDIA》压缩成一张系统设计 Cheat Sheet。
+如果一天有 50 次免费 chat query，我反而建议你**不要为了省额度而疯狂压缩 prompt**。
 
-目标：
+更重要的是：
 
-让我在系统设计面试前 10 分钟内复习完。
+> **一次高质量对话 → 自己回答 → AI 纠错 → 保存 Note**
 
-只保留：
+而不是：
 
-Problem
-→ Decision
-→ Trade-off
-→ Failure
-
-用表格和树状结构。
-
-不要解释基础概念。
-
-最终不超过 1500 字。
-```
+> 50 个问题 → 50 个 summary → 第二天什么都记不住。
 
 ---
 
-## ⭐ 我最推荐你实际使用的顺序
+## 最推荐你的实际操作方式
 
-不用 28 个 Prompt 全部机械执行。
+如果你现在就准备开始，我建议今天只做：
 
-实际按照这个顺序：
+**① 上传 616 页 PDF**
 
-```text
-① 全书 Mental Model
-        ↓
-② 每章通用 Prompt
-        ↓
-③ 每章费曼测试
-        ↓
-④ B-tree / LSM
-        ↓
-⑤ Replication
-        ↓
-⑥ Partitioning
-        ↓
-⑦ Transactions / Isolation
-        ↓
-⑧ Consistency / Failure
-        ↓
-⑨ Batch / Stream
-        ↓
-⑩ Trade-off Matrix
-        ↓
-⑪ System Design Interview
-        ↓
-⑫ 我的 DDIA
-        ↓
-⑬ 1500 字 Cheat Sheet
-```
+**② 执行 `ddia616map`**
 
-**尤其不要跳过 ③、⑩、⑪。**
+**③ 执行 `ddiapriority`**
 
-因为：
+**④ 执行 `ddiamainline`**
 
-> **①②是在“输入知识”；③⑩⑪才是在“验证你真的会了”。**
+**⑤ 开始第一个 A 级章节**
 
-如果你一天只有 **1 小时**，我甚至建议只做：
+不要今天就把整套 Prompt Pack 全跑一遍。
 
-**20 分钟读 PDF → 20 分钟问 NotebookLM → 20 分钟自己回答问题。**
-
-这样 5 天以后，你得到的不是一堆 AI summary，而是一套真正能用于系统设计的 DDIA mental model。
-
+**616 页 DDIA 最怕的不是读不完，而是“AI 替你读完了，你却没有真正学会”。**
 
