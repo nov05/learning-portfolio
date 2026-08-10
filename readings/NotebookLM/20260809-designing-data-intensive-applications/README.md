@@ -1,7 +1,7 @@
 # 🟢 **Designing Data-Intensive Applications**
 
 The book (616 pages): https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/   
-Book exerpt (126 pages): https://drive.google.com/file/d/1-WnQffkfrJaxNKn_eij7dERx_ymnJwZI   
+Book exerpt (126 pages): https://drive.google.com/file/d/1-WnQffkfrJaxNKn_eij7dERx_ymnJwZI     
 
 <br><br><br>   
 
