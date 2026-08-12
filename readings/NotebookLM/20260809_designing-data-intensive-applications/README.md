@@ -3,6 +3,26 @@
 The book (616 pages): https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/   
 Book exerpt (126 pages): https://drive.google.com/file/d/1-WnQffkfrJaxNKn_eij7dERx_ymnJwZI     
 
+The first layer of the table of contents for the second edition of *Designing Data-Intensive Applications* is as follows:
+
+*   **Preface** . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **xvii**
+*   **1. Trade-Offs in Data Systems Architecture** . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **1**
+*   **2. Defining Nonfunctional Requirements** . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **33**
+*   **3. Data Models and Query Languages** . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **65**
+*   **4. Storage and Retrieval** . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **115**
+*   **5. Encoding and Evolution** . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **161**
+*   **6. Replication** . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **197**
+*   **7. Sharding** . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **251**
+*   **8. Transactions** . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **277**
+*   **9. The Trouble with Distributed Systems** . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **345**
+*   **10. Consistency and Consensus** . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **401**
+*   **11. Batch Processing** . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **451**
+*   **12. Stream Processing** . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **487**
+*   **13. A Philosophy of Streaming Systems** . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **539**
+*   **14. Doing the Right Thing** . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **585**
+*   **Glossary** . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **603**
+*   **Index** . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . **609**
+
 <br><br><br>   
 
 👉 Prompt:
