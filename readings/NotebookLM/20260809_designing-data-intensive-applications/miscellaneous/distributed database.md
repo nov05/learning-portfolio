@@ -1,0 +1,7 @@
+Page 303 / 673
+
+> In the late 2000s, nonrelational (**NoSQL**) databases started gaining popularity. They aimed to improve upon the relational status quo by offering a choice of new data models (see Chapter 3) and by including replication and sharding (discussed in Chapters 6 and 7) by default. Transactions were the main casualty of this movement: many of this generation of databases abandoned transactions entirely, or redefined the word to describe a much weaker set of guarantees than had previously been understood.
+
+> The hype around NoSQL distributed databases led to a popular belief that transactions were fundamentally unscalable and that any large-scale system would have to abandon them in order to maintain good performance and high availability. More recently, that belief has turned out to be wrong. So-called “**NewSQL**” databases such as CockroachDB [5], TiDB [6], Spanner [7], FoundationDB [8], and YugabyteDB have shown that transactional systems can scale to large data volumes and high throughput. These systems combine sharding with consensus protocols, which we will explore in Chapter 10, to provide strong ACID guarantees at scale.
+
+> However, that doesn’t mean that every system must be transactional either; as with every other technical design choice, transactions have advantages and limitations. To understand those trade-offs, in this chapter we will explore the details of the guarantees that transactions can provide, both in normal operation and in various extreme (but realistic) circumstances.
