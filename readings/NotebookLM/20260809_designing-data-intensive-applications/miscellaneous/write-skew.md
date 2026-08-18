@@ -1,5 +1,18 @@
 # **👉 Write Skew**
 
+Page 326 /673    
+Figure 8-8. A write skew causing an application bug  
+
+<br>   
+
+ChatGPT:
+
+Snapshot Isolation（SI）能处理很多针对同一行数据的并发读写，但无法保证基于多行数据整体状态的业务约束。例如要求至少两个医生值班时，多个医生同时查询发现当前有两人值班并各自下班，最终可能无人值班；每个事务修改的是不同的行，因此没有直接的 write-write conflict，但组合起来却破坏了跨行约束。这类问题属于 **write skew**，需要 **Serializable Isolation** 来保证并发执行的结果等价于某种串行执行，从而避免这类跨行约束被并发事务共同破坏。这也是理解 Snapshot Isolation 为什么弱于 Serializable Isolation 的经典案例。
+
+<br>  
+
+ChatGPT:  
+
 **Write skew**（写偏差）是并发事务中的一种异常：
 
 > **两个事务读取了相同的一组数据/共同的业务条件，各自修改不同的记录，最终两个修改组合起来违反了原本应该满足的约束。**
