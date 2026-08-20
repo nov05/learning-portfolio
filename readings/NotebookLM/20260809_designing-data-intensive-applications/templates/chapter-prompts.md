@@ -1,10 +1,16 @@
 ## **Question 1**
 
+👉 Human prompt for ChatGPT:  
+
 ```text
+I'm currently reading the following book with NotebookLM.  
+Please generate a prompt to help me understand the mental models in Chapter 10.
+The book (616 pages): https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/
+
+Prompt example:  
+
 I am now studying Chapter 9: Faults and Partial Failures.
-
 Assume I am an experienced software/backend engineer, but I have not systematically studied distributed systems.
-
 Teach me this chapter as a mental model, not as a chapter summary.
 
 Answer:
@@ -25,19 +31,24 @@ Answer:
 10. What trade-offs do those techniques introduce?
 
 Then build one coherent mental model connecting:
-
 network failures → partial failures → unreliable failure detection → unreliable clocks/time → distributed coordination → system design decisions.
 
 Finally, give me 5 rules of thumb that I should remember when designing distributed systems.
-
 Base the answer on the actual chapter, including important examples and arguments from the book. Use source citations where appropriate.
 ```
 
 ## **Question 2**
 
-```text
-Analyze Chapter 9 and identify the 5 most important engineering trade-offs.
+👉 Human prompt for ChatGPT: 
 
+```text
+I'm currently reading the following book with NotebookLM.  
+Please generate a prompt for NotebookLM to identify the most important engineering trade-offs in Chapter 10.
+The book (616 pages): https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/
+
+Prompt example: 
+
+Analyze Chapter 9 and identify the 5 most important engineering trade-offs.
 For each trade-off use this structure:
 
 Problem
@@ -59,17 +70,20 @@ Focus especially on:
 - safety vs availability
 
 Use concrete examples from the chapter and provide source citations.
-
 Do not merely summarize the chapter. Explain the engineering decisions behind these trade-offs.
 ```
 
 ## **Question 3**
 
 ```text
+I'm currently reading the following book with NotebookLM.  
+Please generate a prompt for NotebookLM to generate 3 inverview questions to test my understanding of Chapter 10.
+The book (616 pages): https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/
+
+Prompt example: 
+
 Act as my distributed-systems interviewer.
-
 I have just studied Chapter 9: Faults and Partial Failures.
-
 Test whether I actually understand the chapter.
 
 Rules:
@@ -100,6 +114,5 @@ Across the session, test:
 - real-world backend scenarios
 
 Include at least 3 system-design scenarios and several "why" questions.
-
 Start with the first question now.
 ```

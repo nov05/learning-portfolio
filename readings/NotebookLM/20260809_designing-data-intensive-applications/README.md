@@ -1,7 +1,7 @@
 # 🟢 **Designing Data-Intensive Applications**
 
 The book (616 pages): https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/   
-Book exerpt (126 pages): https://drive.google.com/file/d/1-WnQffkfrJaxNKn_eij7dERx_ymnJwZI     
+Book exerpt (126 pages, free): https://drive.google.com/file/d/1-WnQffkfrJaxNKn_eij7dERx_ymnJwZI     
 
 The first layer of the table of contents for the second edition of *Designing Data-Intensive Applications* is as follows:
 
@@ -28,8 +28,7 @@ The first layer of the table of contents for the second edition of *Designing Da
 👉 Prompt:
 
 ```text
-如何使用 NotebookLM 免费额度快速读一本技术书？比如 Designing Data-Intensive Applications
-by Martin Kleppmann 这本书。
+如何使用 NotebookLM 免费额度快速读一本技术书？比如 Designing Data-Intensive Applications by Martin Kleppmann 这本书。
 https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/
 ```
 
