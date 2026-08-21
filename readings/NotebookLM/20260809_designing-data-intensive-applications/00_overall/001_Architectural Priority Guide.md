@@ -50,7 +50,7 @@ Base everything on the entire PDF, including later chapters. Do not judge chapte
 
 <br><br><br>
 
-## 👉 **NotebookLM output** 
+## 👉 **NotebookLM output** https://www.youtube.com/watch?v=4z7zfjvy9Xc
 
 This priority guide for **Designing Data-Intensive Applications (Second Edition)** is designed to transform you from a developer of single-node apps into an architect of robust distributed systems.
 
