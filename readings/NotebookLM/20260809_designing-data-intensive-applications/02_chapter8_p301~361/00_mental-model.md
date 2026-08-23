@@ -1,6 +1,6 @@
 # 🟢 **Chapter 8 Transactions**  
 
-Page 301 / 673
+Page 301~361 / 673
 
 To teach Chapter 8 as a mental model for a senior backend engineer, we move from the "paranoid" worldview of Chapter 9 (where everything fails) to the **safety abstractions** that allow you to write application logic without losing your mind.
 
