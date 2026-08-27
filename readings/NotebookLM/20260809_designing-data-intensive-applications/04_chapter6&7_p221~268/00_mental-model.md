@@ -320,7 +320,7 @@ To design or maintain a distributed database, you must reason along the entire *
               ▼
  Write Path Execution                     Read Path Execution
     - Single-leader consensus write          - Local index scatter-gather
-    - Multi-leader regional writes      - Quorum read verification
+    - Multi-leader regional writes           - Quorum read verification
               │                                      │
               └───────────────────┬──────────────────┘
                                   ▼
