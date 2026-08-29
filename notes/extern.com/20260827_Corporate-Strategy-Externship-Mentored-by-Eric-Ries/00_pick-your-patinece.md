@@ -93,8 +93,10 @@ Before you submit, check out what makes a strong pick vs. a weak one.
 
 **1. What company will you diagnose?**  
 
-Airbnb
+~~Airbnb~~  
+Blackboard / Anthology  
 
 **2. Why are you choosing this company?**  
 
-I’m choosing Airbnb because it started as a platform built around community and sharing, but as it grew and went public, it became increasingly commercialized and complicated, raising the question of whether Airbnb lost the original spirit that made people love it.
+~~I’m choosing Airbnb because it started as a platform built around community and sharing, but as it grew and went public, it became increasingly commercialized and complicated, raising the question of whether Airbnb lost the original spirit that made people love it.~~  
+As a software engineer who has witnessed firsthand how financial engineering can hollow out technical excellence, I am choosing Blackboard. It is the ultimate tragic case study of a platform that once dominated 70% of the higher education market, only to have its R&D budget completely cannibalized by private equity debt service and a forced "Frankenstein" merger under Anthology—ultimately leading to a Chapter 11 bankruptcy in 2025. I want to dissect how aggressive financial leverage systematically starves product innovation and creates an insurmountable technical debt trap.  

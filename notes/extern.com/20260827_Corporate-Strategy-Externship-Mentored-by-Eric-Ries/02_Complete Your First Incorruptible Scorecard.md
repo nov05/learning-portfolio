@@ -150,7 +150,82 @@ Submit the downloaded **PNG** of your completed Diagnosis Scorecard.
 
 <br><br><br>
 
-## 👉 **Answers**  
+## 👉 **Answers for Blackboard / Anthology**
+
+```text
+BLACKBOARD / ANTHOLOGY — INCORRUPTIBLE DIAGNOSIS SCORECARD
+
+Company Name
+Blackboard / Anthology
+
+Category
+Education Technology
+
+Time Period
+1997–Present
+
+The Ick Factor
+A mission-driven education technology company became increasingly shaped by private-equity ownership, financial leverage, and acquisition-driven consolidation.
+
+LENS 1 — MISSION DRIVE
+Score: 3/5 — Weak
+Could they profit while failing their mission?
+
+Blackboard was founded around improving teaching and learning through education technology. The company's commercial success did not require ownership to preserve that mission over the long term. As ownership changed and the company became increasingly integrated into private-equity-driven acquisition strategies, financial performance and consolidation could become priorities alongside the original educational mission.
+
+Evidence:
+
+Blackboard grew from a mission-driven education technology pioneer into a publicly traded company and was later taken private in a 2011 leveraged buyout. Subsequent ownership changes and the creation of Anthology through multiple acquisitions shifted the company further toward a large-scale consolidation model.
+
+LENS 2 — FINANCIAL GRAVITY
+Score: 1/5 — Overwhelmed
+Did they resist external pressure?
+
+Blackboard became increasingly exposed to financial pressure after successive private-equity transactions. Leverage placed greater importance on cash generation and financial performance, while acquisition-driven expansion increased the scale and complexity of the business. The eventual debt burden became a central constraint on the company's future.
+
+Evidence:
+
+Blackboard was taken private in a 2011 LBO and later became part of Anthology's highly leveraged capital structure. Anthology subsequently entered Chapter 11 in 2025, illustrating how financial leverage could become a defining constraint on the company's operations and ownership structure.
+
+LENS 3 — GOVERNANCE
+Score: 1/5 — Failed
+Were there structural protections for the mission?
+
+Blackboard had little structural protection capable of preserving founder or mission-aligned control after becoming a public company. Following its 2004 IPO, extensive venture-capital dilution left co-founders Michael Chasen and Matthew Pittinsky with less than 6% of the company's stock combined. The resulting ownership structure left the company exposed to a later change in control through the 2011 private-equity buyout.
+
+Evidence:
+
+Blackboard's founders lost effective voting control following the IPO and subsequent dilution. The 2011 acquisition by Providence Equity Partners transferred the company from public shareholders to private-equity ownership, demonstrating how little structural protection remained for the founders' long-term mission.
+
+LENS 4 — MISSION TRANSMISSION
+Score: 2/5 — Lowered
+Did they raise or lower industry standards?
+
+Blackboard played a major role in establishing learning-management software as a core part of modern education. Its early growth helped universities and schools adopt digital teaching infrastructure at scale. Later consolidation and financial restructuring created a different trajectory, with the company increasingly organized around acquisitions, integration, leverage, and financial performance.
+
+Evidence:
+
+Blackboard became one of the defining LMS companies in higher education and helped establish digital learning infrastructure as an industry standard. After successive ownership changes, the business expanded through acquisitions and ultimately became part of Anthology's broader education-technology platform. The company's 2025 Chapter 11 restructuring marked the culmination of this financial and organizational trajectory.
+
+ROOT CAUSE
+    Select the primary failure point...
+    Lens 1: Mission Drive
+    Lens 2: Financial Gravity
+    Lens 3: Governance
+    Lens 4: Mission Transmission
+    Multiple lenses failed together
+Governance
+
+ONE-SENTENCE DIAGNOSIS
+Blackboard / Anthology became vulnerable because weak governance allowed successive private-equity owners to gain control and reshape the company around financial leverage and acquisition-driven consolidation.
+
+KEY INSIGHT
+A strong mission can survive changes in management, but it is much harder to preserve when the people committed to that mission no longer control the company's ownership structure. Blackboard / Anthology's history shows how loss of founder control can open the way for successive changes in ownership, capital structure, and strategic priorities.
+```
+
+<br><br><br>
+
+## 👉 **Answers for Airbnb**  
 
 ```text
 AIRBNB — INCORRUPTIBLE DIAGNOSIS SCORECARD
