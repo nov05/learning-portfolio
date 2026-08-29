@@ -86,28 +86,3 @@ If your mission is marketing and not mechanics, financial gravity will eventuall
 * All four beats
 * A strong hook
 * Content ready for peer feedback
-
-<br><br><br>
-
-👉 Prompt for NotebookLM video generation
-
-```text
-Create a 60-second video about Airbnb's business model deterioration.
-
-The central thesis is: Airbnb gradually lost its value advantage over traditional hotels while remaining able to increase revenue. Rising prices, service fees, cleaning fees, and guest checkout chores can make an Airbnb stay comparable to or more expensive than a hotel while requiring more effort and offering less standardized service.
-
-Structure the video around four beats:
-
-1. Mission: Airbnb originally offered travelers a cheaper, more flexible, and more diverse alternative to traditional hotels.
-
-2. Corruption Event: As the platform matured, rising prices and fees combined with increasingly demanding checkout chores. Guests could end up paying substantial cleaning fees while still being asked to perform cleaning-related tasks.
-
-3. Diagnosis: The primary failure was Mission Drive. Airbnb could make more money from transactions even when the customer's price-to-value proposition became weaker relative to hotels.
-
-4. Structural Lesson: A business becomes vulnerable when its revenue can keep growing even as the customer value that originally made the business attractive declines.
-
-Make the opening hook provocative and concise:
-"Airbnb didn't lose its edge because hotels got better. It lost its edge because the Airbnb experience became harder to justify."
-
-Keep the tone analytical and sharp, not sensational. Focus on the economics of price, value, fees, and customer effort. Do not make the video primarily about housing regulation, local communities, COVID, or Airbnb's overall history. The goal is to explain one structural business problem clearly within 60 seconds.
-```

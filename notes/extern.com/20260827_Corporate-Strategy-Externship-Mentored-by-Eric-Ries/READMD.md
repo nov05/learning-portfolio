@@ -1,7 +1,13 @@
 #  🟢 **Corporate Strategy Externship Mentored by Eric Ries**  
 
+https://app.extern.com/externships/available/660    
+https://app.extern.com/externships/660/projects  
+
 Externship Title    
 Corporate Strategy Externship Mentored by Eric Ries
+
+Program Manager    
+LaRae Snoddy   
 
 Live Sessions Start  
 Sep 14, 2026
@@ -13,11 +19,15 @@ Host Company
 The Lean Startup Co
 
 Key Focus Areas   
-Business Strategy, Corporate Analysis, Career Strategy, Due Diligence
+**Business Strategy, Corporate Analysis, Career Strategy, Due Diligence**  
 
-https://app.extern.com/externships/available/660   
+Progress tracker  
+Complete by Oct 12, 2026 to earn your professional award!   
+  
 
-# Externship Overview
+<br><br><br>  
+
+# 👉 Externship Overview
 
 Eric Ries, author of *The Lean Startup*, teaches a diagnostic framework for evaluating companies—not just executing tasks. You’ll learn to identify financial pressures, governance problems, and mission drift, using the same framework investors and senior operators use.
 
@@ -63,3 +73,59 @@ For anyone interested in understanding why companies fail and spotting warning s
 ## Key Idea
 
 **The externship teaches you how to diagnose why companies succeed, drift, or become corrupted—and how to recognize those warning signs before they become obvious.**
+
+<br><br><br>
+
+# 👉 Syllabus
+
+**Week 1: The Incorruptible Diagnosis**   
+
+Before you can build something that lasts, you need to understand what makes companies break. In this module, you'll dig into case studies of FedMart, Cadbury, and WeWork to master the Incorruptible 4-Lens Framework — Mission Drive, Financial Gravity, Governance, and Mission Transmission—and figure out what corrupted companies that once seemed untouchable. You'll pick a company that failed, drifted, or sold out, build a Incorruptible Scorecard breaking down exactly what went wrong, and turn your analysis into a 1 minute video or slide carousel that proves you can spot clear red flags.
+
+Week 1 Sep 21, 2026
+- Start Diagnosing
+
+   Objective
+   In your first week with us, you’re going to learn to diagnose the “Ick Factor” you feel from some of the biggest brands in the world. We will walk through The Incorruptible 4 lens framework, developed by best-selling author Eric Ries, and warm up your Incorruptible diagnostic skills. Let’s go!
+
+   - The Week 1 Rundown
+   - How Incorruptible Are Companies?
+   - Meet the Book: Incorruptible  
+
+- Learn the Incorruptible Framework
+
+   Objective  
+   In this step, you'll understand why we study failures, choose the company you'll analyze, master the Incorruptible 4 lens framework, and see it applied to two case studies (FedMart and Cadbury).
+
+   - Why We Start with Failing Companies
+   - The Four Lenses Explained
+   - The FedMart Autopsy
+   - Cadbury: The Same Pattern
+   - Identify the Pattern (⚠️ Questions to answer) 
+
+- Conduct Your Own Incorruptible Audit
+
+   Objective  
+   Time to stop watching from the sidelines and apply the framework. You'll pick a company that gives you the ick — one that betrayed its mission, sold out, or slowly corrupted until it became unrecognizable. Then you'll investigate what went wrong, apply the four lenses you just learned, and create your first Incorruptible scorecard. This is where theory becomes practice and you start thinking like someone who can actually spot corporate decay before it happens.
+
+   - Pick Your Patient (⚠️ Questions to answer) 
+   - Start Investigating Your Company
+   - Complete Your first Incorruptible Scorecard (⚠️ Scorecard to submit)
+
+- Share & Reflect  
+
+   Objective  
+   In this step, you'll learn to compress complex analysis into 90 seconds, draft your script or slide outline, create your video or slides, and share it.
+
+   - Analytical Compression Guide
+   - Draft Your Script or Slide Outline
+   - Video Recording Basics
+   - Share Your Work (⚠️ Video to submit)
+   - Ask Eric
+   - Project Recap
+
+**Week 2: The Incorruptible Application - Your Career**  
+
+**Week 3: The Incorruptible Transformation - Be the Changemaker**   
+
+**Week 4: Share What You’ve Found**  
