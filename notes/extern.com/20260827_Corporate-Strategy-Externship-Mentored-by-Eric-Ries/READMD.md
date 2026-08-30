@@ -152,9 +152,17 @@ Week 2, Sep 28, 2026
    - Governance: Who's Actually in Charge?
    - Mission Transmission: Do They Raise the Bar or Lower It?
    - Evaluate Your Company (⚠️ Scorecard to submit)
-   - Ask Eric
-   - Project Recap
+   - Ask Eric (⚠️ Questions to submit)
+   - Project Recap (⚠️ Questions to answer)
 
 **Week 3: The Incorruptible Transformation - Be the Changemaker**   
+
+In Week 2, you analyzed a company you are care about using the 4 lens framework and gave it an Incorruptible score. Now it's time to take action. You'll choose one of the four lenses to focus on and propose a concrete idea for how to strengthen that company's commitment to being incorruptible. You'll learn three powerful concepts from Eric Ries's Incorruptible — The Culture Bank, Transmission Multipliers, and The Entry-Level Advantage — then use practical frameworks to craft and share your proposal.
+
+Week 3, Oct 5, 2026
+
+- Learn the Cheat Codes for Real Impact
+ 
+- Make Your Move
 
 **Week 4: Share What You’ve Found**  

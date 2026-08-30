@@ -1,5 +1,8 @@
 # 🟢 Externship.com
 
+https://extern.com/portfolios/wenjing-liu  
+
+
 ChatGPT:
 
 这个现象很能说明美国白领就业市场现在卷到什么程度。Extern 最值得注意的地方，在于它把原来由企业承担的人才培养和筛选过程，做成一种独立的市场服务。企业每周只需要投入很少时间，Extern 负责招聘、培训、项目管理和学生支持，一个项目可以同时容纳 30–50 名学生；Extern 也直接把 Externship 定位成大型企业的 “pre-hire assessments and alternative recruiting pipelines”。([extern.com](https://www.extern.com/company?utm_source=chatgpt.com))
