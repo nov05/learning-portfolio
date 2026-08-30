@@ -136,11 +136,13 @@ Do not expand into Airbnb's broader history, housing regulation, local communiti
 Target approximately 60–70 seconds. Do not add content to increase runtime.
 ```
 
-⚠️ 勉强能用，但是内容会被压缩改变。   
+⚠️ 勉强能用，但是内容会被压缩改变。时长无法控制，explainer 5-8 分钟，short 1 分钟。   
 
 <br><br><br>
 
 👉 Prompt for NotebookLM explainer video generation
+
+⚠️ 时长无法控制，explainer 5-8 分钟，short 1 分钟。 
 
 ```text
 Create a 60-second video about Airbnb's business model deterioration.

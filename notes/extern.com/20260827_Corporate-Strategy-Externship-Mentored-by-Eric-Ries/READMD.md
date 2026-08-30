@@ -82,7 +82,8 @@ For anyone interested in understanding why companies fail and spotting warning s
 
 Before you can build something that lasts, you need to understand what makes companies break. In this module, you'll dig into case studies of FedMart, Cadbury, and WeWork to master the Incorruptible 4-Lens Framework — Mission Drive, Financial Gravity, Governance, and Mission Transmission—and figure out what corrupted companies that once seemed untouchable. You'll pick a company that failed, drifted, or sold out, build a Incorruptible Scorecard breaking down exactly what went wrong, and turn your analysis into a 1 minute video or slide carousel that proves you can spot clear red flags.
 
-Week 1 Sep 21, 2026
+Week 1 Sep 21, 2026  
+
 - Start Diagnosing
 
    Objective
@@ -121,10 +122,38 @@ Week 1 Sep 21, 2026
    - Draft Your Script or Slide Outline
    - Video Recording Basics
    - Share Your Work (⚠️ Video to submit)
-   - Ask Eric
-   - Project Recap
+   - Ask Eric (⚠️ Questions to submit)
+   - Project Recap (⚠️ Questions to answer)
 
 **Week 2: The Incorruptible Application - Your Career**  
+
+In Week 1, you diagnosed a failing company. Now it's time to turn the lens on yourself and the future. You'll start by reflecting on which elements of the Incorruptible framework resonate most with you, complete the Life Pie exercise to understand what fulfillment means for you, and then identify a company you believe in or want to work for. By the end of this module, you'll have evaluated that company through all four lenses, built your own Incorruptible Scorecard, and prepared a thoughtful question for Eric Ries.
+
+Week 2, Sep 28, 2026
+
+- Find Your Fit
+
+   Objective  
+   Before you evaluate anyone else, start with yourself. Which of the Incorruptible four lenses matter most to you? What does fulfillment actually mean for your life? You'll work through the Life Pie exercise, connect your goals to Eric's concept of human flourishing, and choose a company to dig into for the rest of this module.
+
+   - The Week 2 Rundown
+   - Human Flourishing Connection
+   - Which Lenses Matter Most to You
+   - The Life Pie Exercise
+   - Choose Your Company (⚠️ A question to answer)
+
+- Evaluate Your Company Across the Four Lenses
+
+   Objective   
+   Here's where you learn to size up companies for real. You'll dig into four key areas—Mission Drive, Financial Gravity, Governance, and Mission Transmission—and turn your analysis into a legit Incorruptible Scorecard.
+
+   - Mission Drive: Is the Mission Real or Just Marketing?
+   - Financial Gravity: Can They Handle the Pressure?
+   - Governance: Who's Actually in Charge?
+   - Mission Transmission: Do They Raise the Bar or Lower It?
+   - Evaluate Your Company (⚠️ Scorecard to submit)
+   - Ask Eric
+   - Project Recap
 
 **Week 3: The Incorruptible Transformation - Be the Changemaker**   
 

@@ -75,3 +75,13 @@ This is a strong deliverable. You can share it on LinkedIn, discuss it in interv
 ---
 
 **Next up:** Your final task for this week — Capture any questions or ideas you’d like to share with Eric →
+
+<br><br><br>   
+
+👉 YouTube video:    
+
+**From Mission to Bankruptcy: The Fall of Blackboard**  
+https://www.youtube.com/watch?v=2l3NM6uEhJ8
+
+✅ 视频右 descript 网站产生。分析借助 ChatGPT and Gemini Notebook。    
+https://web.descript.com/  

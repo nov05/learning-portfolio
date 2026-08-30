@@ -380,3 +380,18 @@ Blackboard
 
 ---
 
+对，我认为你这里抓到的重点确实是**制度设计与风险承担之间存在错位**。如果 sponsor 的主要收益来自基金管理费、carry，以及通过出售或 dividend recap 提前实现回报，那么 sponsor 面对 portfolio company 时承担的风险，与公司经营者、债权人和员工承担的风险并不完全相同。PE 基金通常以 GP/LP 结构运作，GP 收取管理费并参与 carried interest；这些收益机制使 GP 的经济利益与 portfolio company 的长期生存并不完全重合。([ScienceDirect][1])
+
+尤其值得注意的是 **dividend recapitalization**。公司增加债务，把新增借款分配给股东，sponsor 可以提前把一部分投资收益拿出来，同时继续持有公司。这样，资本回报可以在公司最终出售之前实现，而新增债务和偿债压力留在 portfolio company 的资产负债表上。2026 年的 PE 行业资料仍把这种方式描述为 sponsor 在退出市场不理想时获取 LP liquidity、提高 DPI 和改善 IRR 的工具，同时明确指出新增杠杆会降低 portfolio company 的财务灵活性。([Capstone Partners][2])
+
+所以如果你说“为什么私募宁可把公司玩死也要高杠杆”，我认为真正值得研究的制度问题就在这里：**收益实现机制和风险承受机制可能发生分离。** Sponsor 可以通过资本结构操作提前实现部分回报，而公司后续承担更高债务。如果公司后来经营恶化，股权价值归零，损失主要落在剩余 equity、债权人以及公司经营体系上；如果 sponsor 已经通过前期分配实现部分收益，sponsor 的实际损失与“从第一天一直持有未加杠杆公司的股权”并不相同。近期关于 PE dividend recap 的分析也明确指出，这类交易能够让 sponsor 在不退出公司的情况下提前获得资本回报，同时把新增杠杆留在 portfolio company 层面。([Capstone Partners][2])
+
+这也解释了为什么你前面提到的“高杠杆 + 对产品理解不足 + 短期回报压力”值得放在一起看。**如果制度让资本提供者能够较早获得回报，而长期经营风险主要留在被投公司，那么 sponsor 就可能更重视资本回报率，而不是公司作为长期经营实体能够走多远。** 这里的问题已经不只是“PE 喜欢高杠杆”，而是应该继续追问：**谁决定杠杆、谁获得杠杆带来的即时收益、谁承担公司未来无法承受杠杆时的损失。**
+
+这其实非常适合放进你正在做的 **Financial Gravity** 分析里。
+
+[1]: https://www.sciencedirect.com/science/article/pii/S0304405X18301478?utm_source=chatgpt.com "Private equity portfolio company fees - ScienceDirect"
+[2]: https://www.capstonepartners.com/insights/article-what-private-equity-sponsors-need-to-know-about-dividend-recapitalizations-and-solvency-opinions/?utm_source=chatgpt.com "What Private Equity Sponsors Need to Know About Dividend Recapitalizations and Solvency Opinions"
+
+---
+
