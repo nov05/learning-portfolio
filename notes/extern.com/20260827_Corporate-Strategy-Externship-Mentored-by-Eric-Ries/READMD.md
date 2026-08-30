@@ -161,8 +161,18 @@ In Week 2, you analyzed a company you are care about using the 4 lens framework 
 
 Week 3, Oct 5, 2026
 
-- Learn the Cheat Codes for Real Impact
- 
+- Learn the Cheat Codes for Real Impact  
+
+   Objective  
+   In this step, you'll select which lens from your Week 2 analysis to focus on for your improvement proposal, and learn three powerful concepts from Eric Ries's Incorruptible : The Culture Bank, Transmission Multipliers, and The Entry-Level Advantage. These concepts help you understand how change actually happens in organizations — and how to propose ideas that will stick.  
+
+   - The Week 3 Rundown
+   - Pick Your Battle
+   - The Culture Bank
+   - Transmission Multipliers
+   - The Entry-Level Advantage
+
 - Make Your Move
 
 **Week 4: Share What You’ve Found**  
+
