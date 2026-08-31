@@ -179,9 +179,17 @@ Week 3, Oct 5, 2026
 
    - The DEAR MAN Framework
    - Simple Sharing Tools
-   - Submit Your Action Proposal
-   - Ask Eric
-   - Project Recap
+   - Submit Your Action Proposal (⚠️ A post to submit)
+   - Ask Eric (⚠️ Questions to submit)
+   - Project Recap (⚠️ Questions to answer)
 
 **Week 4: Share What You’ve Found**  
 
+Here's where everything comes together. You've spent three weeks building your Incorruptible muscles — now it's time to pull it all together into something you can actually share with your peers. First, you'll see the Incorruptible framework working beautifully in two companies that got it right: Novo Nordisk's century-long governance playbook and Patagonia's bold ownership transfer that locked in their mission forever. Next, you’ll pick your action, build your final deliverable, and share it with Eric Ries and your peers. This is where three weeks of work becomes something you can actually use.
+
+Week 4， Oct 12, 2026
+
+- See the Framework in Action
+- Build Your 4-Slide Presentation
+- Record Your Presentation
+- Prepare for the Live Presentations
