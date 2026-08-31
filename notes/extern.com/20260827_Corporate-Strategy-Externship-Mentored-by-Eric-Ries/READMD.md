@@ -167,12 +167,21 @@ Week 3, Oct 5, 2026
    In this step, you'll select which lens from your Week 2 analysis to focus on for your improvement proposal, and learn three powerful concepts from Eric Ries's Incorruptible : The Culture Bank, Transmission Multipliers, and The Entry-Level Advantage. These concepts help you understand how change actually happens in organizations — and how to propose ideas that will stick.  
 
    - The Week 3 Rundown
-   - Pick Your Battle
+   - Pick Your Battle (⚠️ Scorecard to submit)
    - The Culture Bank
    - Transmission Multipliers
    - The Entry-Level Advantage
 
 - Make Your Move
+
+   Objective
+   In this step, you'll turn your lens focus and understanding of action concepts into a concrete proposal. You'll learn the DEAR MAN framework for presenting ideas persuasively, explore simple tools for sharing your proposal publicly, and submit your final action plan.
+
+   - The DEAR MAN Framework
+   - Simple Sharing Tools
+   - Submit Your Action Proposal
+   - Ask Eric
+   - Project Recap
 
 **Week 4: Share What You’ve Found**  
 
