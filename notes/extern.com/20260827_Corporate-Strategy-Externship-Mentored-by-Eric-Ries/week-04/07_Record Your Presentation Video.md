@@ -158,4 +158,7 @@ Before moving on, verify:
 
 Your recording is now ready to submit. You may also have the opportunity to present this live to Eric Ries in your mentor session—your recording is practice for that moment.
 
-Upload your presentation recording as a sharable URL.  
+Upload your presentation recording as a sharable URL. 
+
+👉 Slides V13 with AI-generated voiceover, Duration: 5:13
+https://www.youtube.com/watch?v=zJNUtQFmsZA   

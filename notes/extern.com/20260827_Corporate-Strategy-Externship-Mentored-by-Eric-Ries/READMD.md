@@ -1,7 +1,8 @@
-#  🟢 **Corporate Strategy Externship Mentored by Eric Ries**  
+#  🟢 **Corporate Strategy Externship Mentored by Eric Ries**   
 
-👉 My project folder on Google Drive:   
-https://drive.google.com/drive/folders/1LLN-fXrrG_9Kha5ItXKowRJsr9dBUKlE   
+<br><br><br>  
+
+## 👉 Project Information 
 
 https://app.extern.com/externships/available/660    
 https://app.extern.com/externships/660/projects  
@@ -26,11 +27,29 @@ Key Focus Areas
 
 Progress tracker  
 Complete by Oct 12, 2026 to earn your professional award!   
+
+<br><br><br> 
+
+## 👉 Project Artifacts  
+
+✅ Deliverables:     
+ACTION PROPOSAL: SAP’s Unified Core & Adaptable Edge Strategy in the AI Era  
+https://wenjingliu7.medium.com/action-proposal-saps-unified-core-adaptable-edge-strategy-in-the-ai-era-ac81413dacb7  
+SAP: Cloud Strategy Analysis and Action Proposal   
+https://wenjingliu7.medium.com/sap-cloud-strategy-analysis-and-action-proposal-7b075d50e577  
+
+✅ My project folder on Google Drive:   
+https://drive.google.com/drive/folders/1LLN-fXrrG_9Kha5ItXKowRJsr9dBUKlE  
+
+✅ Shareables:   
+https://app.extern.com/sign-up?share_code=84XVXN867ZE4&utm_source=share_artifact&utm_medium=social&utm_campaign=journey_card&utm_content=shared_link
+
+<img src="https://raw.githubusercontent.com/nov05/pictures/refs/heads/master/certificates/20260902_extern-journey-wenjing-4x5.png" width=400>  
   
 
-<br><br><br>  
+<br><br><br>   
 
-# 👉 Externship Overview
+## 👉 Externship Overview
 
 Eric Ries, author of *The Lean Startup*, teaches a diagnostic framework for evaluating companies—not just executing tasks. You’ll learn to identify financial pressures, governance problems, and mission drift, using the same framework investors and senior operators use.
 
@@ -219,3 +238,10 @@ Week 4， Oct 12, 2026
    - Record Your Presentation Video (⚠️ A video to submit)
 
 - Prepare for the Live Presentations
+
+   Objective
+   You've completed your presentation and recording. In this final step, you'll submit your presentation, prepare for your potential live session with Eric Ries, and celebrate what you've accomplished over four weeks.
+
+   - Presenting to Eric: What to Expect
+   - Celebrate & What's Next
+   - Project Recap
