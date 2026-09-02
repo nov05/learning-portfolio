@@ -1,5 +1,8 @@
 #  🟢 **Corporate Strategy Externship Mentored by Eric Ries**  
 
+👉 My project folder on Google Drive:   
+https://drive.google.com/drive/folders/1LLN-fXrrG_9Kha5ItXKowRJsr9dBUKlE   
+
 https://app.extern.com/externships/available/660    
 https://app.extern.com/externships/660/projects  
 
@@ -190,6 +193,29 @@ Here's where everything comes together. You've spent three weeks building your I
 Week 4， Oct 12, 2026
 
 - See the Framework in Action
+
+   Objective  
+   In this step, you'll see the four-lens framework working in two positive cases: Novo Nordisk's foundation governance structure that protected the company's mission for over 100 years, and Patagonia's transfer of ownership to a trust that ensures permanent mission protection. These examples show what "incorruptible" actually looks like in practice.
+
+   - Week 4 Rundown
+   - The Novo Nordisk Veto
+   - Patagonia: Mission Transmission Through Ownership
+
 - Build Your 4-Slide Presentation
+
+   Objective   
+   In this step, you'll create a 4-slide presentation that synthesizes everything you've learned about your chosen company. Each slide has a specific purpose: introduce yourself, present your company, show your evaluation scorecard, and propose an action to improve the company's Incorruptible health. This presentation will be recorded and may be presented directly to Eric Ries.
+
+   - The 4-Slide Framework
+   - Create Your 4-Slide Deck with AI
+   - Refine Your Slides and Submit (⚠️ Slides to submit)
+
 - Record Your Presentation
+
+   Objective
+   In this step, you'll record a polished video of your 4-slide presentation. You'll rehearse, set up your recording environment, and capture a final take that's ready to share with Eric Ries in your mentor session.
+
+   - Recording Your Best Take
+   - Record Your Presentation Video (⚠️ A video to submit)
+
 - Prepare for the Live Presentations

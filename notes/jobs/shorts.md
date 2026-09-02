@@ -1,4 +1,33 @@
+* 2026-09-02 https://www.facebook.com/reel/1089689026885948 
 
+  ```text
+  1. CareerHound.io
+  This one's a game-changer , it pulls remote jobs posted directly on company career pages, so you're applying straight to the company instead of fighting 800 people on LinkedIn. You can filter by remote, worldwide, and even jobs posted in the last 24 hours. (Heads up ,  it's paid, but you can preview it for free.)
+  2. We Work Remotely
+  One of the biggest 100% remote job boards out there, and it's been around forever. Filter by category, region, and skills ,  great for full-time remote roles you won't see on the generic sites.
+  3. Wellfound
+  Best if you want a remote role at a startup. Tons of fast-growing companies, and the best part salary and equity are usually shown upfront, and you can apply with one profile.
+  🛠️ Bonus tool ,  RezPass.com
+  Once you find a job on any of these, don't send a generic resume. I run mine through RezPass first , it pulls the exact keywords from the posting and cleans up the formatting so it actually gets past the ATS scanner and still sounds human.
+  Save this for your next application, and follow for more remote job + resume tips!! 🤍
+  #jobsearch #wfh #remotejob #remotework #workfromhome #fypシ 
+  ```
+
+* 2026-08-31 https://www.facebook.com/reel/3214744102038624  
+
+  ```text
+  Job searching can be a daunting task, but what if AI could help you find your dream role? Career-Ops is an incredible open-source project with 50,000 stars on GitHub, designed to revolutionize your job hunt.
+  Built with JavaScript and licensed under MIT, this system turns any AI coding CLI into a full job search command center. It's not just a spray-and-pray tool; it's a smart filter to help you find the best opportunities.
+  Here's what Career-Ops can do for you:
+  • Evaluates offers with a structured A-F scoring system based on 10 weighted dimensions.
+  • Generates tailored, ATS-optimized CVs customized for each job description.
+  • Scans portals automatically, including Greenhouse, Ashby, Lever, and company pages.
+  • Processes job evaluations in batches, handling 10+ offers in parallel.
+  • Tracks everything in a single source of truth with integrity checks.
+  Career-Ops helps you find the few offers truly worth your time out of hundreds, strongly recommending against applying to anything scoring below 4.0/5. Your time and the recruiter's time are valuable!
+  Repo: https://github.com/santifer/career-ops
+  #CareerOps #JobSearch #AITools #OpenSource #GitHub 
+  ```
 
 * 2026-08-28 https://www.facebook.com/reel/1649397803434641  
 
