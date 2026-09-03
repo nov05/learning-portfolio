@@ -1,5 +1,32 @@
 #  🟢 **Corporate Strategy Externship Mentored by Eric Ries**   
 
+<br><br><br> 
+
+## 👉 Project Artifacts  
+
+✅ Deliverables:   
+Week 4: "RISE" with SAP, Cloud Strategy Evaluation and Action Proposal   
+https://youtu.be/qoWxfZuDrbI?si=uvA_cnrqHNgNCs5R    
+Week 4: SAP: Cloud Strategy Analysis and Action Proposal   
+https://wenjingliu7.medium.com/sap-cloud-strategy-analysis-and-action-proposal-7b075d50e577  
+Week 3: ACTION PROPOSAL: SAP’s Unified Core & Adaptable Edge Strategy in the AI Era  
+https://wenjingliu7.medium.com/action-proposal-saps-unified-core-adaptable-edge-strategy-in-the-ai-era-ac81413dacb7   
+Week 1: From Mission to Bankruptcy: The Fall of Blackboard  
+https://www.youtube.com/watch?v=2l3NM6uEhJ8   
+Week 1: Explain Corporate Failure in 90 Seconds（90 秒介绍企业失败案例）   
+https://youtu.be/Sj4iIKYaUyo   
+  
+
+✅ My project folder on Google Drive:   
+https://drive.google.com/drive/folders/1LLN-fXrrG_9Kha5ItXKowRJsr9dBUKlE  
+
+✅ Shareables:   
+[Google Doc - Ask Eric](https://docs.google.com/document/d/1D2luKgDwjGosbbDJowPQDVKclCVTY1Unsl4_XIGCSg0)   
+
+<img src="https://raw.githubusercontent.com/nov05/pictures/refs/heads/master/certificates/20260902_extern-journey-wenjing-4x5.png" width=400>   
+
+https://app.extern.com/sign-up?share_code=84XVXN867ZE4&utm_source=share_artifact&utm_medium=social&utm_campaign=journey_card&utm_content=shared_link  
+
 <br><br><br>  
 
 ## 👉 Project Information 
@@ -27,24 +54,6 @@ Key Focus Areas
 
 Progress tracker  
 Complete by Oct 12, 2026 to earn your professional award!   
-
-<br><br><br> 
-
-## 👉 Project Artifacts  
-
-✅ Deliverables:     
-ACTION PROPOSAL: SAP’s Unified Core & Adaptable Edge Strategy in the AI Era  
-https://wenjingliu7.medium.com/action-proposal-saps-unified-core-adaptable-edge-strategy-in-the-ai-era-ac81413dacb7  
-SAP: Cloud Strategy Analysis and Action Proposal   
-https://wenjingliu7.medium.com/sap-cloud-strategy-analysis-and-action-proposal-7b075d50e577  
-
-✅ My project folder on Google Drive:   
-https://drive.google.com/drive/folders/1LLN-fXrrG_9Kha5ItXKowRJsr9dBUKlE  
-
-✅ Shareables:   
-https://app.extern.com/sign-up?share_code=84XVXN867ZE4&utm_source=share_artifact&utm_medium=social&utm_campaign=journey_card&utm_content=shared_link
-
-<img src="https://raw.githubusercontent.com/nov05/pictures/refs/heads/master/certificates/20260902_extern-journey-wenjing-4x5.png" width=400>  
   
 
 <br><br><br>   
