@@ -11,10 +11,12 @@ Week 4: SAP: Cloud Strategy Analysis and Action Proposal
 https://wenjingliu7.medium.com/sap-cloud-strategy-analysis-and-action-proposal-7b075d50e577  
 Week 3: ACTION PROPOSAL: SAP’s Unified Core & Adaptable Edge Strategy in the AI Era  
 https://wenjingliu7.medium.com/action-proposal-saps-unified-core-adaptable-edge-strategy-in-the-ai-era-ac81413dacb7   
+Week 2: [Four Lenses Analysis - SAP](https://github.com/nov05/learning-portfolio/blob/master/notes/extern.com/20260827_Corporate-Strategy-Externship-Mentored-by-Eric-Ries/materials/sap-four-lenses-analysis.pdf)   
 Week 1: From Mission to Bankruptcy: The Fall of Blackboard  
 https://www.youtube.com/watch?v=2l3NM6uEhJ8   
 Week 1: Explain Corporate Failure in 90 Seconds（90 秒介绍企业失败案例）   
-https://youtu.be/Sj4iIKYaUyo   
+https://youtu.be/Sj4iIKYaUyo    
+Week 1: [Incorruptable Scorecard - Blackboard](https://raw.githubusercontent.com/nov05/learning-portfolio/refs/heads/master/notes/extern.com/20260827_Corporate-Strategy-Externship-Mentored-by-Eric-Ries/materials/Blackboard-Anthology-Diagnosis-Score-7.png)   
   
 
 ✅ My project folder on Google Drive:   
