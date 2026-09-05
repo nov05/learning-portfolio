@@ -22,9 +22,36 @@ VCs source companies through multiple channels:
 * Events and conferences
 * Online research and databases
 
+```text
+Sequoia Capital
+
+* Open to simple cold emails from founders. Founders can reach out directly, making it easier for early-stage companies to get noticed.
+* Built a famous Scout Program, where trusted founders/executives refer early startups.
+* Did you know? A referral led Sequoia to invest in Google when it was still tiny.
+```
+```text
+Y Combinator
+
+Y Combinator is both a venture capital firm and an accelerator program. It invests money in startups and also provides a training program to help those startups grow and succeed quickly.
+
+* Runs the world’s best-known application-based accelerator.
+* Thousands of founders apply each cycle.
+* Demo Day introduces startups to hundreds of investors at once.
+* Example: Dropbox gained massive attention after presenting at Demo Day.
+```
+```text
+Andreessen Horowitz (a16z)
+
+* Runs a wide Scout Network to surface early opportunities.
+* Monitors GitHub, Twitter, and developer communities to spot trends.
+* Pays close attention to what builders and engineers are excited about.
+* Example: Noticed early momentum behind GitHub, invested $100M in 2012.
+```
+
+
 The common principle is simple:
 
-**Don't wait for startups to come to you. Actively search for them.**
+✅ **Don't wait for startups to come to you. Actively search for them.**
 
 ## Using AI for Startup Sourcing
 
