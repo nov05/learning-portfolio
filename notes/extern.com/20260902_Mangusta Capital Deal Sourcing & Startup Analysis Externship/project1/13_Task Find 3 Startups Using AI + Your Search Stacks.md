@@ -115,6 +115,9 @@ Your shortlist is the foundation of everything that follows. **Step 3 is where y
  
 ---   
 
+👉 Google Sheet to submit
+https://docs.google.com/spreadsheets/d/12up_NwtLEq61jn0Q68VrKFMAaHTaZwEE
+
 👉 ChatGPT
 
 | 平台                       | 对你找 startup 的价值 | 适合阶段                |
@@ -125,4 +128,5 @@ Your shortlist is the foundation of everything that follows. **Step 3 is where y
 | **F6S**                  | ⭐⭐⭐⭐            | Pre-Seed / Seed     |
 | YC Directory             | ⭐⭐⭐⭐⭐           | Pre-Seed / Seed / A |
 | LinkedIn                 | ⭐⭐⭐⭐⭐           | 全阶段，但需要自己筛          |
+
 
