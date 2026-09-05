@@ -2,10 +2,10 @@
 https://flow.google.com/   
 
 ```text
-20260905 fantasy city - Pistachio Gelato #food #miniature #fantasy 
-```
-
-```text
+Clear Sugar Crystals ✅ 12
+Rock Candy ✅ 10
+Cinnamon Rolls ✅ 10
+Blue Cheese ✅ 12
 Pistachio Gelato ✅ 12
 Mochi（麻薯）✅ 12
 Tiramisu（提拉米苏）✅ 12
@@ -18,13 +18,17 @@ Honeycomb ✅ 10
 wild mushrooms ✅ 10
 Caviar ✅  15
 Jamón Ibérico ✅  12
-Purple Cabbage ✅ 10
+Purple Cabbage ✅ 10 credits
 ```
 
-## Prompt 3 
+```text
+20260905 fantasy city - Clear Sugar Crystals #food #miniature #fantasy 
+```
+
+## 👉 Prompt 3 ✅
 
 ```text
-[FOOD NAME] = Pistachio Gelato
+[FOOD NAME] = Clear Sugar Crystals
 
 Create an 8-second cinematic vertical (9:16) miniature Food City video where an entire fantasy city is creatively constructed from [FOOD NAME].
 
@@ -82,7 +86,7 @@ The final result should feel like a premium cinematic documentary about a tiny e
 The image should be visually rich but never visually overwhelming — refined, soft, varied, dreamy, elegant, and irresistibly detailed.
 ```
 
-## Prompt 2
+## 👉 Prompt 2 ✅
 
 ```text
 [FOOD NAME] = Ube
@@ -125,7 +129,7 @@ https://www.tiktok.com/@things.never.existed/video/7681935459496365325
 👉 Purple Cabbage, 8 sec = 10 credits  
 https://www.tiktok.com/@things.never.existed/video/7681935068796898573  
 
-## Prompt 1
+## 👉 Prompt 1 ✅
 
 ```text
 ENTER_FOOD_NAME [ wild mushrooms ]
