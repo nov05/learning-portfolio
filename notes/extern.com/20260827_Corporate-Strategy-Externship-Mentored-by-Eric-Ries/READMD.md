@@ -16,13 +16,10 @@ Week 1: From Mission to Bankruptcy: The Fall of Blackboard
 https://www.youtube.com/watch?v=2l3NM6uEhJ8   
 Week 1: Explain Corporate Failure in 90 Seconds（90 秒介绍企业失败案例）   
 https://youtu.be/Sj4iIKYaUyo    
-Week 1: [Incorruptable Scorecard - Blackboard](https://raw.githubusercontent.com/nov05/learning-portfolio/refs/heads/master/notes/extern.com/20260827_Corporate-Strategy-Externship-Mentored-by-Eric-Ries/materials/Blackboard-Anthology-Diagnosis-Score-7.png)   
-  
-
-✅ My project folder on Google Drive:   
-https://drive.google.com/drive/folders/1LLN-fXrrG_9Kha5ItXKowRJsr9dBUKlE  
+Week 1: [Incorruptable Scorecard - Blackboard](https://raw.githubusercontent.com/nov05/learning-portfolio/refs/heads/master/notes/extern.com/20260827_Corporate-Strategy-Externship-Mentored-by-Eric-Ries/materials/Blackboard-Anthology-Diagnosis-Score-7.png)    
 
 ✅ Shareables:   
+[My project folder on Google Drive](https://drive.google.com/drive/folders/1LLN-fXrrG_9Kha5ItXKowRJsr9dBUKlE)  
 [Google Doc - Ask Eric](https://docs.google.com/document/d/1D2luKgDwjGosbbDJowPQDVKclCVTY1Unsl4_XIGCSg0)   
 
 <img src="https://raw.githubusercontent.com/nov05/pictures/refs/heads/master/certificates/20260902_extern-journey-wenjing-4x5.png" width=400>   
