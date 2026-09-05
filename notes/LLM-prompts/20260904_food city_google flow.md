@@ -18,3 +18,6 @@ No subtitles.
 No watermark.
 The final result should look like a premium Pixar-style miniature food city documentary, where every building, road, landscape, vehicle, and decorative element is creatively built from [ENTER_FOOD_NAME], creating a vibrant and magical edible city.
 ```
+
+👉 Example result:  
+https://www.youtube.com/shorts/Gy0qoJEJElk  
