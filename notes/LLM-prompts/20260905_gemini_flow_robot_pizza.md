@@ -102,8 +102,8 @@ Photorealistic, realistic metal weight and physics, cinematic, vertical 9:16.
   https://www.byteplus.com  
 
 * 免费使用 BytePlus 的 ByteDance-Seedance-1.5-pro    
-  生成 8 秒视频，draft mode 48211 tokens，regular mode 172800 tokens  
-  生成 12 秒视频，draft mode 72317 tokens, 1080p 高清视频，585225 tokens   
+  生成 8 秒视频，draft mode 48211 tokens，720p 172800 tokens  
+  生成 12 秒视频，draft mode 72317 tokens, 1080p 高清 585225 tokens   
 
 <br>
 
