@@ -2,7 +2,11 @@
 https://flow.google.com/   
 
 ```text
-Clear Sugar Crystals ✅ 12
+Lemon Meringue Tart ✅ 10
+Panna Cotta with Berries ✅ 10
+Chocolate Lava Cake ✅ 10
+Rainbow Sugar Crystals ✅ 10
+Clear Sugar Crystals ✅ 10
 Rock Candy ✅ 10
 Cinnamon Rolls ✅ 10
 Blue Cheese ✅ 12
@@ -24,11 +28,18 @@ Purple Cabbage ✅ 10 credits
 ```text
 20260905 fantasy city - Clear Sugar Crystals #food #miniature #fantasy 
 ```
+```text
+20260905 Dessertopia - A Fantasy Sweet City  
+
+Clear Sugar Crystals, Rainbow Sugar Crystals, Chocolate Lava Cake, Panna Cotta with Berries, Lemon Meringue Tart  
+
+#food #miniature #fantasy  
+```
 
 ## 👉 Prompt 3 ✅
 
 ```text
-[FOOD NAME] = Clear Sugar Crystals
+[FOOD NAME] = Lemon Meringue Tart
 
 Create an 8-second cinematic vertical (9:16) miniature Food City video where an entire fantasy city is creatively constructed from [FOOD NAME].
 
@@ -89,7 +100,7 @@ The image should be visually rich but never visually overwhelming — refined, s
 ## 👉 Prompt 2 ✅
 
 ```text
-[FOOD NAME] = Ube
+[FOOD NAME] = Panna Cotta with Berries
 
 Create a 8-second cinematic vertical (9:16) miniature Food City video where an entire fantasy city is creatively constructed from [FOOD NAME].
 
@@ -132,7 +143,7 @@ https://www.tiktok.com/@things.never.existed/video/7681935068796898573
 ## 👉 Prompt 1 ✅
 
 ```text
-ENTER_FOOD_NAME [ wild mushrooms ]
+[ENTER_FOOD_NAME] = Chocolate Lava Cake
 Create a 8-second cinematic vertical (9:16) miniature Food City video where an entire fantasy city is creatively built using [ENTER_FOOD_NAME].
 Before generating the video, analyze [ENTER_FOOD_NAME] and automatically design a realistic miniature city where every structure, road, decoration, and landscape is made from different parts, textures, and ingredients of [ENTER_FOOD_NAME].
 The city should feel magical, believable, highly detailed, and visually satisfying while maintaining the appearance and texture of real food.
