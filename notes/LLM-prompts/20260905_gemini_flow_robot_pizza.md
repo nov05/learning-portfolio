@@ -1,13 +1,14 @@
 # 🟢 **Metal Pizza Transforming into a Robotic Spider**  
 
 https://youtube.com/shorts/YqYtBR_Cq_8  
-
-* Google Gemini, free versoin
+  
+* Google Gemini, free version  
 * ByteDance Seedance 1.5 Pro on BytePlus, free credits
+* ChatGPT, free version
 
 ## 👉 金属披萨 - start form
   
-* 在 Google Gemini 中生成起始图片
+* 使用 ChatGPT 生成提示词，在 Google Gemini 中生成起始图片（不满意则让 ChatGPT 修改提示词）
 
 ```text
 Create an ultra-realistic photorealistic metal pizza, photographed like a premium food commercial.
