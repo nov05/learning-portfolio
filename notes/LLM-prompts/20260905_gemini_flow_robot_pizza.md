@@ -74,7 +74,7 @@ NO text or logos.
 
 ## 👉 变形过程
 
-* Google Flow
+* 使用 Google Flow, or BytePlus 的 ByteDance-Seedance-1.5-pro
 
 ```text
 The metal pizza slowly transforms into the mechanical creature through a continuous physical reassembly.
@@ -97,13 +97,14 @@ Photorealistic, realistic metal weight and physics, cinematic, vertical 9:16.
 
 <br>  
 
-* 停止爲AI視頻付費！Seedance居然能免費無限用？  
+* 停止爲AI視頻付費！Seedance居然能免費無限用？✅   
   https://youtu.be/immA9VIB36k   
   https://www.byteplus.com  
 
-* 免费使用 BytePlus 的 ByteDance-Seedance-1.5-pro    
+* 免费使用 BytePlus 的 ByteDance-Seedance-1.5-pro ✅     
   生成 8 秒视频，draft mode 48211 tokens，720p 172800 tokens  
-  生成 12 秒视频，draft mode 72317 tokens, 1080p 高清 585225 tokens   
+  生成 12 秒视频，draft mode 72317 tokens, 1080p 高清 585225 tokens    
+  先生成草稿，不满意则让 ChatGPT 修改提示词，满意后生成高清视频。   
 
 <br>
 
