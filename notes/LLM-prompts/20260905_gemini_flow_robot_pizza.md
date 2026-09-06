@@ -30,7 +30,7 @@ No text, no logos, no people, no cartoon style, no futuristic sci-fi background,
 
 ## 👉 机器蜘蛛 - end form
 
-* 在 Gemini 中生成变形后图片
+* 在 Gemini 中上传上一张图片，要求生成变形后图片
 
 ```text
 Transform the uploaded metal pizza completely into the mechanical creature.
