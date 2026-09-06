@@ -107,11 +107,11 @@ Photorealistic, realistic metal weight and physics, cinematic, vertical 9:16.
 
 <br>
 
-**ByteDance Seedance 1.5 Pro** · **251215 (Latest)**
-High-precision audio-visual sync · Cinematic motion & emotional expression · First/last frame support
+**ByteDance Seedance 1.5 Pro** · **251215 (Latest)**  
+High-precision audio-visual sync · Cinematic motion & emotional expression · First/last frame support  
 
 | Model ID                  | Video + Audio |         Video | Resolution          | Duration | FPS | Concurrent | RPM |
 | ------------------------- | ------------: | ------------: | ------------------- | -------- | --: | ---------: | --: |
 | `seedance-1-5-pro-251215` | $2.4/M tokens | $1.2/M tokens | 480p / 720p / 1080p | 5s / 10s |  24 |         10 | 600 |
 
-**Status:** Not activated · **Free credits:** 1,777,838 / 2,000,000 tokens
+**Status:** Not activated · **Free credits:** 1,777,838 / 2,000,000 tokens  
