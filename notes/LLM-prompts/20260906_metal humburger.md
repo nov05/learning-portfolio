@@ -31,6 +31,8 @@ Shot with an iPhone 15 Pro Max, vertical 9:16 composition, centered hamburger, c
 No text, no logos, no people, no hands, no cartoon style, no illustration, no sci-fi background, no floating objects, no fantasy elements, no robot, no mechanical legs, no eyes, no face, no mouth.
 ```
 
+<img src="https://raw.githubusercontent.com/nov05/pictures/refs/heads/master/genai/20260906_metal_hamburger/Gemini_Generated_Image_878jo7878jo7878j.jpg" width=300>  
+
 ## 👉 End form
 
 ```text
@@ -58,9 +60,11 @@ Keep the same restaurant table, background, camera position, viewing angle and l
 No hamburger shape, no food appearance, no face, no eyes, no mouth, no humanoid robot, no floating parts, no text, no logos, no people.
 ```
 
+<img src="https://raw.githubusercontent.com/nov05/pictures/refs/heads/master/genai/20260906_metal_hamburger/Gemini_Generated_Image_439cxh439cxh439c.jpg" width=300>   
+
 ## 👉 Transformation video
 
-* 在 Google Flow 中创建新项目，上传两张图片，分别将两张图片 send to prompt 并说明是 starting frame 和 ending frame. 
+* 在 Google Flow 中创建新项目，上传两张图片，分别将两张图片 send to prompt 并说明是 starting frame 和 ending frame.  
   提示词窗右下角设置 9:16, 1x, Omni 1.1 Flash （最长生成 10 秒视频，15 credits），然后输入以下提示词。
 
 ```text
