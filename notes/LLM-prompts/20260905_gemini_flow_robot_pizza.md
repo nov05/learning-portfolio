@@ -3,7 +3,7 @@
 https://youtube.com/shorts/YqYtBR_Cq_8  
   
 * Google Gemini, free version  
-* ByteDance Seedance 1.5 Pro on BytePlus, free credits
+* ByteDance Seedance 1.5 Pro on BytePlus (or Google Flow), free credits
 * ChatGPT, free version
 
 ## 👉 金属披萨 - start form
