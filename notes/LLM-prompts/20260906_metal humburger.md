@@ -36,8 +36,6 @@ No text, no logos, no people, no hands, no cartoon style, no illustration, no sc
 ## 👉 End form
 
 ```text
-对，压缩到和披萨那版接近的长度，保留最关键的**彻底拆解重组**约束。
-
 Ultra-realistic photorealistic transformation of the uploaded metal hamburger into a heavy-duty six-wheeled industrial engineering vehicle.
 
 The hamburger is completely disassembled and reconstructed into a completely different mechanical structure. No intact hamburger remains. Do not simply put wheels underneath the hamburger. The original bun-patty-bun shape must completely disappear.
