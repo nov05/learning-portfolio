@@ -117,11 +117,14 @@ No head turn, no twisted neck, no backward-facing head, no open mouth, no smoke,
 
 <img src="https://raw.githubusercontent.com/nov05/pictures/refs/heads/master/genai/20260906_metal-suchi/Gemini_Generated_Image_ws3bhrws3bhrws3b.jpg" width=300>  
 
-## 👉 Transformation video
+## 👉 Transformation video ✅
 
 * 使用 Google Flow，先上传两张图片，分别点击图片右上角 Add to prompt 并说明是 Starting frame 和 Ending frame。  
   在提示词对话框右下角点击 Settings 按钮，设置 9:16 竖屏、x1 生成一条视频、Omni 1.1 Flash（最长 10 秒）。  
   通常消耗 15 credits。  
+* Watch the video  
+  https://www.tiktok.com/@things.never.existed/video/7682470481257057549   
+* 这段提示词效果很好。
 
 ```text
 Ultra-realistic photorealistic 10-second vertical 9:16 video, iPhone 15 Pro Max look, static camera, no cuts, no camera movement, no zoom. Refined Japanese restaurant, warm natural lighting. Exactly 8 metallic sushi pieces on a normal elegant ceramic plate. Only the sushi is mechanical; plate, table, soy sauce bottle, vinegar bottle, wooden chopsticks, chopstick rest, white daikon flower and green leaves remain completely normal and untouched.
@@ -137,5 +140,3 @@ Ultra-realistic photorealistic 10-second vertical 9:16 video, iPhone 15 Pro Max 
 Photorealistic steel, gears, bearings, hydraulic pistons, grease, scratches and oxidation. Realistic heavy mechanical physics and synchronized metal sounds. **No digital smoke overlay, no flat smoke effect, no intermediate forms, no cube or box, no melting, no magical morphing, no real food, no solid rice, no organic dinosaur, no cartoon, no CGI look, no humanoid robot, no vehicle, no wheels, no people, no text, no logos.**
 ```
 
-* Watch the video  
-  https://www.tiktok.com/@things.never.existed/video/7682470481257057549  

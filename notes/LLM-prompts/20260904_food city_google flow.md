@@ -1,6 +1,13 @@
 👉 Google Flow:  
 https://flow.google.com/   
 
+| 模型                        | 你这个 10 秒视频 |    Flow Credits | 质量/能力 |
+| ------------------------- | ---------: | --------------: | ----- |
+| **Gemini Omni 1.1 Flash** |       10 秒 |  **15 credits** | ⭐⭐⭐⭐  |
+| **Veo 3.1 Quality**       |     最长 8 秒 | **100 credits** | ⭐⭐⭐⭐⭐ |
+| Veo 3.1 Fast              |     最长 8 秒 |      20 credits | ⭐⭐⭐⭐½ |
+| Veo 3.1 Lite              |     最长 8 秒 |      10 credits | ⭐⭐⭐½  |
+
 ```text
 Lemon Meringue Tart ✅ 10
 Panna Cotta with Berries ✅ 10
