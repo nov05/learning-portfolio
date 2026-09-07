@@ -12,9 +12,13 @@
 
 ## 👉 Victoria's Enchantia  
 
+[Google Photos Album](https://photos.app.goo.gl/WAw91qqvyuupQrwXA)  
+
 ```text
-(Victoria is a dear friend of mine.)
-#fantasy #food #magic #spirit
+(Victoria is a dear friend of mine.)  
+#fantasy #food #magic #spirit  
 ```
 
-20260907 Victoria's Enchantia - Chicken Salad  
+20260907 Victoria's Enchantia - Bird of Paradise  
+20260907 Victoria's Enchantia - Romanesco  
+20260907 Victoria's Enchantia - Chicken Salad    
