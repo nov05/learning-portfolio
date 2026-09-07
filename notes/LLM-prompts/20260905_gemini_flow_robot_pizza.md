@@ -26,7 +26,7 @@ Warm restaurant lighting, realistic reflections, subtle steam and heat haze, sha
 No text, no logos, no people, no cartoon style, no futuristic sci-fi background, no floating objects.
 ```
 
-<img src="https://raw.githubusercontent.com/nov05/pictures/refs/heads/master/genai/20260905_pizza/Gemini_Generated_Image_kp0vqzkp0vqzkp0v_0.jpg" width=300>   
+<img src="https://raw.githubusercontent.com/nov05/pictures/refs/heads/master/genai/20260905_metal-pizza/Gemini_Generated_Image_kp0vqzkp0vqzkp0v_0.jpg" width=300>   
 
 ## 👉 机器蜘蛛 - end form
 
@@ -70,7 +70,7 @@ NO cartoon style.
 NO text or logos.
 ```
 
-<img src="https://raw.githubusercontent.com/nov05/pictures/refs/heads/master/genai/20260905_pizza/Gemini_Generated_Image_hc83uxhc83uxhc83.jpg" width=300>   
+<img src="https://raw.githubusercontent.com/nov05/pictures/refs/heads/master/genai/20260905_metal-pizza/Gemini_Generated_Image_hc83uxhc83uxhc83.jpg" width=300>   
 
 ## 👉 变形过程
 
