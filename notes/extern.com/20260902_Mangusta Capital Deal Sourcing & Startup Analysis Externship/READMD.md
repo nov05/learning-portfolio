@@ -78,3 +78,10 @@ Deal flow is the foundation of every VC fund — and it starts with someone who 
 
 
 **Project 4: Creating an Investment Memo**   
+
+
+<br><br><br>  
+
+## 👉 **Calendar** (Sep 07, 2026 Cohort)  
+
+<img src="https://raw.githubusercontent.com/nov05/pictures/804edd39a2e0d9ab5a83cb1c4e7de156821acb75/learning-portfolio/20260908_extern_mangusta/2026-09-08%2014_12_12-.png" width=500>   

@@ -1,4 +1,16 @@
 
+## 👉 Metal Food Transformation
+
+```text
+#fantasy #food #robotic #excavtors  
+```  
+
+20260908 Metal Onigiri Transforming into Excavator  
+Metal Noodle Transforming into Robotic Phinex  
+Metal Sushi Transforming into Robotic T-Rex  
+Metal Hamburger Transforming into UTV  
+Matal Pizza Transforming into Robotic Spider   
+
 ## 👉 Desktop Robots
 
 ```text
