@@ -1,3 +1,11 @@
+## 👉 Mechanical Deities   
+
+```text
+#mechanical #deities #mythical #Dunhuang 
+```
+
+20260909 Mechanical Deities - Dunhuang
+
 
 ## 👉 Metal Food Transformation
 
