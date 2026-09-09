@@ -19,7 +19,8 @@ Program duration
 
 ## 👉 Deliverables  
 
-* [my Google Drive folder](https://drive.google.com/drive/folders/1vQ7NEwSsBXhFrp5n8_AHiqgubehmCec2) (not sharable)   
+* [My Google Drive folder](https://drive.google.com/drive/folders/1vQ7NEwSsBXhFrp5n8_AHiqgubehmCec2) (**DO NOT SHARE**)   
+* [General Notes](https://docs.google.com/document/d/1mwzfJkWI6-Qu2x6J68yPP22xB1mcR21qVEfRoX1o3ig) (**DO NOT SHARE**)    
 
 <br><br><br>
 
@@ -70,6 +71,7 @@ Deal flow is the foundation of every VC fund — and it starts with someone who 
 
  
 - Step 4: Explore a VC Research Tool (Optional)
+
 
 **Project 2: Doing Due Diligence**   
 

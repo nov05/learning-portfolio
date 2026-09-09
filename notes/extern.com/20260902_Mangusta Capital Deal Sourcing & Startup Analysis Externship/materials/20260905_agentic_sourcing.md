@@ -164,3 +164,57 @@ Research value:
 [2]: https://techcrunch.com/2025/08/08/former-googlers-ai-startup-openart-now-creates-brainrot-videos-in-just-one-click/?utm_source=chatgpt.com "Former Googlers' AI startup OpenArt now creates ‘brain rot’ videos in just one click | TechCrunch"
 [3]: https://www.basisset.com/insights/openarts-series-a-and-the-acceleration-of-infrastructure-first-consumer?utm_source=chatgpt.com "OpenArt’s Series A and the Acceleration of Infrastructure-First Consumer"
 
+<br><br><br>  
+
+---   
+
+我认为两周目标可以收得很窄：先做出一条能持续运行的 sourcing pipeline，每天自动产出一份值得人工查看的公司 shortlist。两周结束时，核心验证点放在“发现质量”上：输入公开互联网信号，经过抽取、合并、简单排序，最后得到一批有明确来源、有具体信号、值得进一步研究的公司。
+
+整个架构可以先压缩成：
+
+```text
+公开数据源
+    ↓
+Discovery
+    ↓
+抓取少量页面
+    ↓
+LLM Extraction
+    ↓
+Company Record
+    ↓
+Deduplication
+    ↓
+Signal Scoring
+    ↓
+Daily Shortlist
+```
+
+数据源我会先控制在三类：GitHub，用于发现新项目和技术增长信号；startup / product directories，用于获得公司和产品候选；Search / News / RSS，用于捕捉新成立、产品发布、招聘、融资等事件。数据采集层尽量复用现成 API、RSS、搜索结果和公开页面，把工程重点放在“发现 → 抽取 → 公司合并”这条链上。
+
+LLM 层先统一生成一份很简单的 company record，例如：
+
+```json
+{
+  "company": "...",
+  "founders": ["..."],
+  "product": "...",
+  "industry": "...",
+  "stage": "...",
+  "signals": ["hiring", "launch", "github_growth"],
+  "sources": ["..."]
+}
+```
+
+然后给每家公司累积 signal。第一版 scoring 可以非常粗，只需要回答“为什么这家公司今天出现在 shortlist 里”。最终每天生成类似这样的结果：
+
+| Company   | Signal                 | Evidence  | Score |
+| --------- | ---------------------- | --------- | ----: |
+| Company A | Hiring + GitHub growth | 4 sources |    89 |
+| Company B | New product + founder  | 3 sources |    84 |
+| Company C | Customer traction      | 5 sources |    81 |
+
+两周开发节奏，我会把前几天放在 discovery pipeline，中间几天解决 extraction 和 entity resolution，后几天接 scoring 和 daily output，最后留时间跑一批真实数据做人工验证。
+
+两周后的产品形态甚至可以只有一张表。每天打开它，看到当天新发现的公司、触发信号、证据来源和分数。这个闭环跑通，sourcing 才算初步成立。
+
