@@ -1,9 +1,11 @@
 ## 👉 Mechanical Deities   
 
 ```text
-#mechanical #deities #mythical #Dunhuang 
+#mechanical #deities #mythical #Medusa
 ```
 
+20260910 Mechanical Deities - Medusa
+20260910 Mechanical Deities - Durga
 20260909 Mechanical Deities - Dunhuang
 
 
