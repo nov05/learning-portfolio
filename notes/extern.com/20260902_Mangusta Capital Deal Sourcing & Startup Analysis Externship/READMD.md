@@ -17,10 +17,11 @@ Program duration
 <br><br><br>
 
 
-## 👉 Deliverables  
+## 👉 Documents and Deliverables  
 
 * [My Google Drive folder](https://drive.google.com/drive/folders/1vQ7NEwSsBXhFrp5n8_AHiqgubehmCec2) (**DO NOT SHARE**)   
 * [General Notes](https://docs.google.com/document/d/1mwzfJkWI6-Qu2x6J68yPP22xB1mcR21qVEfRoX1o3ig) (**DO NOT SHARE**)    
+* [Team Communitation](https://docs.google.com/document/d/11EpntFPn44bz4cgXu0LOsMy6gaPPvX319AEszZ8pn6k) (Share with members)
 
 <br><br><br>
 
