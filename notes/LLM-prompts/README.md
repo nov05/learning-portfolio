@@ -1,9 +1,10 @@
 ## 👉 Mechanical Deities   
 
 ```text
-#MechanicalDeity #mechanical #deity #fantasy #Isis
+#MechanicalDeity #mechanical #deity #fantasy #Freyja
 ```
 
+20260914 Mechanical Deities - Freyja
 20260913 Mechanical Deities - Isis  
 20260911 Mechanical Deities - Amaterasu  
 20260910 Mechanical Deities - Medusa
