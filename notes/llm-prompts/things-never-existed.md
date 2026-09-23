@@ -1,9 +1,10 @@
-## 👉 Mechanical Deities   
+## 👉 Mechanical Deity  
 
 ```text
-#MechanicalDeity #mechanical #deity #fantasy #Freyja
+#MechanicalDeity #mechanical #deity #fantasy #Tassili #HornedGoddess
 ```
 
+20260921 Mechanical Deities - Tassili n’Ajjer Horned Goddess 
 20260914 Mechanical Deities - Freyja
 20260913 Mechanical Deities - Isis  
 20260911 Mechanical Deities - Amaterasu  
@@ -12,7 +13,7 @@
 20260909 Mechanical Deities - Dunhuang
 
 
-## 👉 Metal Food Transformation
+## 👉 Food Robot
 
 ```text
 #fantasy #food #robotic #excavtors  
@@ -24,7 +25,7 @@ Metal Sushi Transforming into Robotic T-Rex
 Metal Hamburger Transforming into UTV  
 Matal Pizza Transforming into Robotic Spider   
 
-## 👉 Desktop Robots
+## 👉 Desktop Robot
 
 ```text
 #fantasy #desktop #robot
@@ -34,6 +35,19 @@ Matal Pizza Transforming into Robotic Spider
 20260907 Desktop Robots - Stapler  
 20260907 Desktop Robots - Keyboard  
 20260905 Desktop Robots - Tape Measure  
+
+
+## 👉 Hidden World in Food
+
+```text
+#HiddenWorldInFood #food #fantasy #pomegranate 
+```
+
+20260922 Hidden World in Food - Pomegranate  
+20260905 Hidden World in Food - Croissant   
+20260905 Hidden World in Food - Salad   
+20260905 Hidden World in Food - Hot Pot  
+20260905 Hidden World in Food - Ramen  
 
 ## 👉 Victoria's Enchantia  
 
