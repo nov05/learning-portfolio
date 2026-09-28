@@ -54,10 +54,10 @@ Matal Pizza Transforming into Robotic Spider
 [Google Photos Album](https://photos.app.goo.gl/WAw91qqvyuupQrwXA)  
 
 ```text
-(Victoria is a dear friend of mine.)  
-#fantasy #food #magic #spirit  
+#fantasy #food #magic #spirit #mushroom #vine 
 ```
 
+20260927 Victoria's Enchantia - Mushroom  
 20260908 Victoria's Enchantia - Oyster
 20260907 Victoria's Enchantia - Bird of Paradise  
 20260907 Victoria's Enchantia - Romanesco  

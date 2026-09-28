@@ -1,0 +1,74 @@
+# 🟢 Vines and Mushrooms
+
+https://youtube.com/shorts/nKHiiLqPmB0
+
+
+## 👉 原图到长满藤蔓和蘑菇
+
+```text
+Generate a single static image from my reference image.
+Do not create a video or describe a transformation sequence.
+Vertical 9:16 composition.
+Shot with an iPhone 15 Pro Max.
+Ultra-realistic photorealistic.
+Strictly preserve the original cabinet from the reference image without describing, redesigning, reshaping, or deforming it. Preserve every existing object in the reference image. Do not add any objects that are not already present in the reference image, including lamps, lights, furniture, fixtures, or decorative objects. Keep the original glass bottles and hydroponic vines on the top shelf. Let those vines grow upward to the ceiling and spread densely in all directions. The shelf spaces below are filled with abundant edible wild mushrooms specifically inspired by Yunnan edible wild fungi, including matsutake, porcini, termite mushrooms, morels, chanterelles, Lactarius mushrooms, and other diverse local edible species. Make the mushroom growth highly varied and natural, with strong differences in size, density, depth, species, and growth stages. Randomly distribute the mushrooms with natural gaps and clusters. Approximately one third of the mushrooms naturally grow outward toward the viewer, emerging from different depths with random angles, lengths, and directions. Some exceptionally large mushrooms bend or lean beyond the shelf spaces, but their growth must remain organic and irregular. No identical repeated mushrooms, no symmetry, no evenly spaced positions, no geometric patterns. Keep the original potted plant in front of the cabinet and let it grow much larger and more lush. From the larger flat surface above the cabinet, grow moss, fungal growth, small edible wild mushrooms, and mixed trailing plants. Let the trailing plants grow naturally downward in different lengths and cover most of the cabinet doors. Add clearly visible magical fantasy sprites, not ordinary animals and not necessarily humanoid. Make them varied, fancy, strange, magical, and bioluminescent, with several large enough to be clearly noticed. No beetles, snails, butterflies, birds, or other ordinary animals. Give the whole scene a subtle dreamy glow with soft bioluminescence and faint luminous spores, while keeping the image photorealistic. Dense, wild, irregular, lush, enchanting, and naturally overgrown.
+```
+
+## 👉 长满藤蔓和蘑菇的图片到房间变暗
+
+```text
+Generate a single static image from my current reference image.
+Do not create a video or describe a transformation sequence.
+Vertical 9:16 composition.
+Shot with an iPhone 15 Pro Max.
+Ultra-realistic photorealistic.
+Use the current reference image as the direct visual reference. This image already shows the fully overgrown scene with vines, mushrooms, plants, and magical fantasy sprites, so preserve this existing scene exactly. Do not recreate the scene from the original cabinet reference image. Keep all existing objects, plants, vines, mushrooms, magical fantasy sprites, and their current growth forms and positions unchanged. Do not remove, redesign, reshape, replace, or add any objects. Make the entire room significantly darker, creating a deep, dim nighttime atmosphere while preserving the existing composition and overgrown environment. Change only the lighting and atmosphere. Let the existing magical fantasy sprites stand out clearly in the darkness with beautiful, subtle bioluminescent light. Keep them clearly recognizable as fancy, strange, magical fantasy creatures, not ordinary animals. Do not turn them into beetles, snails, butterflies, birds, or other ordinary animals. Let the sprites remain varied in appearance and size, with some clearly visible rather than appearing only as tiny dots. Add sparse glowing fireflies naturally throughout the existing dark space. Only a small number of selected existing mushrooms should have a soft fluorescent or bioluminescent glow. Do not make all the mushrooms glow. The glowing mushrooms should remain naturally scattered among the existing mushrooms rather than forming a pattern. Create gentle pools of light around some sprites and selected glowing mushrooms, with soft halos, faint luminous spores, subtle reflections, and delicate atmospheric glow. Keep the darkness dominant so the luminous elements emerge naturally from the shadows. The final image should feel mysterious, dreamy, enchanted, and slightly otherworldly while remaining highly realistic and photorealistic. Preserve the existing overgrown scene exactly and do not introduce any new objects, structures, furniture, lamps, fixtures, or decorations.
+```
+
+## 👉 生成视频片段
+
+01.jpg -> 02.jpg
+
+```text
+Generate a 4-second video.
+Vertical 9:16 composition.
+Shot with an iPhone 15 Pro Max.
+Ultra-realistic photorealistic.
+Use Frame 1 as the exact starting state and Frame 2 as the exact ending state. Create a continuous, natural time-lapse-like growth process between the two frames. Keep the camera completely fixed and maintain the exact same composition, perspective, framing, cabinet structure, and existing objects throughout the entire video. Do not redesign, reshape, deform, replace, remove, or add any objects. The cabinet itself remains completely unchanged while the existing plants, vines, moss, fungi, and mushrooms gradually grow and spread naturally from Frame 1 toward their final appearance in Frame 2.
+The growth should feel organic, continuous, and biologically believable rather than sudden or mechanical. Small vines gradually extend and branch, slowly climbing across the cabinet and surrounding surfaces. The original hydroponic trailing vines in the glass bottles remain preserved and gradually grow upward toward the ceiling, extending farther and spreading naturally in multiple directions. At the larger flat surface above the cabinet, moss, fungal growth, small edible wild mushrooms, and trailing plants gradually emerge and expand, while the trailing plants slowly cascade downward in different lengths and progressively cover the cabinet doors. Inside the existing shelf spaces, edible wild mushrooms gradually emerge from different locations and grow at different speeds, sizes, depths, and stages. Include rich variation inspired by Yunnan edible wild fungi, such as matsutake, porcini, termite mushrooms, morels, chanterelles, Lactarius mushrooms, and other diverse local edible species. Some mushrooms begin as tiny growths and slowly develop into mature forms, while some become exceptionally large and long, naturally bending or leaning outward beyond the shelf spaces toward the viewer. Approximately one third of the mushrooms should gradually grow outward toward the viewer from different depths, with irregular angles, lengths, and directions. Avoid any synchronized growth, identical repeated mushrooms, symmetry, evenly spaced positions, geometric patterns, or mechanical four-point arrangements. The growth should have clear hierarchy, natural gaps, varied density, and overlapping layers, with different species appearing at different moments.
+Preserve the original potted plant in front of the cabinet and let it gradually become much larger and more lush as part of the natural growth process. The magical fantasy sprites should remain present and integrated naturally into the growing environment, moving subtly and organically as the plants and mushrooms expand around them. They should remain clearly fantastical, varied, strange, and magical, not ordinary animals. Do not add beetles, snails, butterflies, birds, or other ordinary animals. Their movement should be delicate and understated, as if they are quietly observing or interacting with the growing ecosystem rather than performing obvious actions.
+The soundscape should feel like a lush, humid forest full of quiet life. Include delicate, irregular water droplets naturally falling onto leaves, moss, mushrooms, and other existing surfaces, with varied distances and soft wet textures. Add subtle leaf rustling, faint plant friction, tiny organic sounds suggesting slow natural growth, and many overlapping microscopic sounds that create the feeling that the living environment is quietly whispering to itself. The “whispering” must be entirely organic and atmospheric, with no understandable human speech or dialogue. Keep the sound rich and alive but gentle and immersive, with no music and no exaggerated magical sound effects. The entire transition from Frame 1 to Frame 2 should feel like watching a miniature forest ecosystem quietly awaken and take over the existing space through continuous natural growth, while preserving the exact visual identity and structure of the original scene.
+```
+
+02.jpg -> 03.jpg
+
+```text
+Generate a 4-second video.
+Vertical 9:16 composition.
+Shot with an iPhone 15 Pro Max.
+Ultra-realistic photorealistic.
+Use Frame 2 as the exact starting state and Frame 3 as the exact ending state. Create a simple, smooth transition from the existing daylight or brighter atmosphere into deep nighttime darkness. Keep the camera completely fixed and preserve the exact same composition, perspective, framing, cabinet structure, and every existing object throughout the entire video. Do not add, remove, redesign, reshape, deform, replace, grow, or move anything. The vines, mushrooms, plants, magical fantasy sprites, potted plant, and all other existing elements must remain exactly as they are in Frame 2, with the only visual change being the gradual reduction of ambient light. Let the room slowly become darker and darker, as if daylight is naturally fading away and the space is gradually entering a deep, humid forest-like night. The transition should be subtle, smooth, and realistic, without dramatic lighting effects or sudden changes. By Frame 3, the environment should have a quiet, dark nighttime atmosphere while preserving the existing scene exactly.
+The sound should transition simply from the existing daytime ambience into the natural background sound of a humid forest at night. Gradually reduce the daytime environmental sounds and replace them with a deep, quiet nighttime forest ambience: very subtle distant night insects, soft leaves and branches moving gently in a light breeze, occasional delicate water droplets falling onto existing leaves or moss, and faint spacious forest ambience in the distance. Keep the sound natural, restrained, immersive, and continuous, with no music, no dialogue, no obvious animal calls, and no exaggerated magical sound effects. The final moment should feel like the same overgrown space has quietly fallen into a deep forest night.
+```
+
+03.jpg -> 03.jpg
+
+```text
+Generate a 4-second video.
+Vertical 9:16 composition.
+Shot with an iPhone 15 Pro Max.
+Ultra-realistic photorealistic.
+Use Frame 03 as the exact starting state and Frame 03 as the exact ending state. Keep the camera completely fixed and preserve the exact same composition, perspective, framing, cabinet structure, lighting, vines, mushrooms, plants, potted plant, and every existing object throughout the entire video. Do not add, remove, redesign, reshape, deform, replace, grow, or change any existing elements. The only movement should come from the existing magical fantasy sprites. Let the sprites move naturally and independently through the space, drifting gently up, down, left, right, forward, and backward at different speeds and depths, creating the feeling of small magical creatures quietly moving through their nighttime habitat. Their movements should be fluid, organic, varied, and unpredictable, with no synchronized motion and no repetitive patterns. One selected sprite gradually flies toward the camera from the existing scene, moving through the depth of the space until it comes very close to the lens and appears dramatically larger in the foreground. It should remain clearly recognizable as the same magical fantasy creature, with its appearance preserved as it approaches, without transforming into anything else. After briefly reaching the foreground, it gently flies backward and returns to its original position in the scene, ending exactly where it started. All other sprites continue their subtle independent movements in the background. Do not make the sprites behave like ordinary animals, and do not introduce beetles, snails, butterflies, birds, or other ordinary creatures.
+Keep the background sound consistent with the deep humid forest nighttime ambience from the previous scene. Maintain soft distant night insects, gentle leaves and branches moving in a light breeze, occasional delicate water droplets falling onto existing leaves or moss, and faint spacious forest ambience. Keep the sound continuous and natural throughout the entire shot, with no music, no dialogue, no sudden sound effects, and no exaggerated magical sounds. The sprite movements should not alter the established nighttime forest soundscape.
+```
+
+03.jpg -> 02.jpg
+
+```text
+Generate a 4-second video.
+Vertical 9:16 composition.
+Shot with an iPhone 15 Pro Max.
+Ultra-realistic photorealistic.
+Use Frame 03 as the exact starting state and Frame 02 as the exact ending state. Keep the camera completely fixed and preserve the exact same composition, perspective, framing, cabinet structure, vines, mushrooms, plants, magical fantasy sprites, potted plant, and every existing object throughout the entire video. Do not add, remove, redesign, reshape, deform, replace, grow, or move anything. The only visual change should be the gradual transition from the deep nighttime darkness of Frame 03 back into the brighter atmosphere of Frame 02. Let the ambient light slowly and naturally increase, as if dawn or daylight is gradually returning to the room. The scene should become progressively brighter and clearer without sudden flashes, dramatic lighting changes, or artificial light sources. Preserve the existing colors, textures, growth patterns, and positions of all elements exactly. By the end of the video, the lighting and overall atmosphere should match Frame 02 precisely.
+The sound should smoothly transition from the quiet humid forest nighttime ambience back into the richer daytime natural ambience established in Frame 02. As the room gradually becomes brighter, let the distant night insects slowly fade away and bring back subtle daytime forest sounds, gentle leaves moving in the breeze, delicate water droplets, soft natural environmental textures, and the quiet feeling of abundant living growth. Keep the transition gradual and seamless, with no music, no dialogue, no sudden sound effects, and no exaggerated magical sounds. The final soundscape should match the natural daytime atmosphere of Frame 02.
+```  
