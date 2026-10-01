@@ -1,9 +1,11 @@
 ## 👉 Mechanical Deity  
 
 ```text
-#MechanicalDeity #mechanical #deity #fantasy #Tassili #HornedGoddess
+20260921 Mechanical Deities - Nüwa  
+#MechanicalDeity #mechanical #deity #fantasy #Nüwa  
 ```
 
+20260921 Mechanical Deities - Nüwa
 20260921 Mechanical Deities - Tassili n’Ajjer Horned Goddess 
 20260914 Mechanical Deities - Freyja
 20260913 Mechanical Deities - Isis  
