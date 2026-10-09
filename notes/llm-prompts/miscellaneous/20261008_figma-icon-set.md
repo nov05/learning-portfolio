@@ -19,7 +19,7 @@
 
 🔹 Demo video - https://youtu.be/sasX2ozSu-E  
 🔹 Figma file - https://www.figma.com/community/file/1690144880612957783/20261007-icon-set  
-🔹 Design assets - https://github.com/nov05/pictures/tree/6ca688742aef1df88bf31e6eb5602d1236786e87/genai/20261008_figma-icon-set  
+🔹 Design assets - https://github.com/nov05/pictures/blob/0d8d4266a8182646dc01fa9bb52da66ff39aece0/genai/20261008_figma-icon-set  
 🔹 Video prompt - https://github.com/nov05/learning-portfolio/blob/master/notes/llm-prompts/miscellaneous/20261008_figma-icon-set.md  
 🔹 Brushstroke video - https://youtu.be/JX2UIr36bBs    
 
