@@ -14,6 +14,7 @@
 * The GIFs were edited in **Kapwing**. 
 * The computer screen was recorded using **OBS Studio**. 
 * The demo video was edited in **Microsoft Clipchamp**.
+* The GIFs were made transparent using **Ezgif.com**.  
 
 <br>  
 
@@ -22,8 +23,11 @@
 🔹 Design assets - https://github.com/nov05/pictures/blob/0d8d4266a8182646dc01fa9bb52da66ff39aece0/genai/20261008_figma-icon-set  
 🔹 Video prompt - https://github.com/nov05/learning-portfolio/blob/master/notes/llm-prompts/miscellaneous/20261008_figma-icon-set.md  
 🔹 Brushstroke video - https://youtu.be/JX2UIr36bBs    
+🔹 EZGif - https://ezgif.com/video-to-gif  
 
 <br>   
+
+👉 Video generation prompt  
 
 ```text
 Generate a 4-second video using two reference images.
@@ -53,3 +57,18 @@ No music or voiceover. Keep the camera static and the composition horizontal 16:
 
 **Audio:** Include clearly audible, realistic Chinese calligraphy brush sounds synchronized with each stroke, with a satisfying “shua-shua” dry-brush sound and subtle bristle friction against paper. The brush sounds should be prominent and crisp. No music, no voiceover, and no other sound effects.
 ```
+
+<img src="https://raw.githubusercontent.com/nov05/pictures/b4b206b29df8e0429613af3b547cfee4363839c9/genai/20261008_figma-icon-set/black-strokes-transparent-background.gif" width=300><img src="https://raw.githubusercontent.com/nov05/pictures/b4b206b29df8e0429613af3b547cfee4363839c9/genai/20261008_figma-icon-set/white-strokes-transparent-background.gif" width=300><img src="https://raw.githubusercontent.com/nov05/pictures/b4b206b29df8e0429613af3b547cfee4363839c9/genai/20261008_figma-icon-set/Generating_icon_animation_video_20261008182912-ezgif.com-effects-reversed.gif" width=300>  
+
+👉 Transparent GIF configuration  
+
+* Go to https://ezgif.com/video-to-gif  
+* Convert .mp4 to .gif:  
+  Size: Original  
+  Frame rate (FPS): 24 (max)
+* Choose "Effect"  
+* Replace color with transparency:
+  custom (HEX): #e4e4e4 (pick the background color)  
+  Check "don't stack frames"  
+  Fuzz %: 20  
+  Uncheck "clean up edges"   
