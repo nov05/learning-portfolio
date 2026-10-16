@@ -1,7 +1,9 @@
 # 🟢 Manga Infinite Staircases
 
 20261016 Undefined - Manga Infinite Staircases  
-#Undefined #fantasy #manga #infinity #staircase   
+#Undefined #fantasy #manga #infinity #staircase  
+
+https://www.youtube.com/watch?v=hgHV62T0YdU
 
 
 👉 Prompt Google Gemini to generate the manga page  
